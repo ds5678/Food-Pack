@@ -1,3 +1,7 @@
 Key, English, German
 GAMEPLAY_AuroraEnergyDrink, "Energy Drink", "Energy Drink"
 GAMEPLAY_AuroraEnergyDrinkDescription, "An energy drink.", "Ein Energy Drink."
+GAMEPLAY_Cornflakes, "Corn Flakes", "Cornflakes"
+GAMEPLAY_CornflakesDescription, "A big box of crispy corn flakes. Very dry.", "Eine große Packung Cornflakes. Sehr trocken."
+GAMEPLAY_BeerBottle, "Beer", "Bier"
+GAMEPLAY_BeerBottleDescription, "A nice bottle of beer.\nHave a cold one!\n\nAlcohol 5% vol", "Eine schöne Flasche Bier.\nGönn' Dir ein kühles Blondes!\n\nAlkohol 5% vol"
