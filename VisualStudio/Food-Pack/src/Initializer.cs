@@ -47,12 +47,13 @@ namespace FoodPack
 
         private static void initBeerBottle()
         {
-            GameObject BeerBottlePrefab = (GameObject)ModAssetBundleManager.LoadAsset("GEAR_BeerBottle");
-            ModUtils.RegisterConsoleGearName("Beer", BeerBottlePrefab.name);
-            ModUtils.InsertIntoLootTable(LootTableName.LootTableBackPack, BeerBottlePrefab, 3);
-            ModUtils.InsertIntoLootTable(LootTableName.LootTableKitchenCupboard, BeerBottlePrefab, 5);
-            ModUtils.InsertIntoLootTable(LootTableName.LootTableFridge, BeerBottlePrefab, 10);
-            ModUtils.InsertIntoLootTable(LootTableName.LootTableWardrobe_regular, BeerBottlePrefab, 2);
+            GameObject beerBottlePrefab = (GameObject)ModAssetBundleManager.LoadAsset("GEAR_BeerBottle");
+            ModUtils.RegisterConsoleGearName("BeerBottle", beerBottlePrefab.name);
+            ModUtils.InsertIntoLootTable(LootTableName.LootTableBackPack, beerBottlePrefab, 3);
+            ModUtils.InsertIntoLootTable(LootTableName.LootTableKitchenCupboard, beerBottlePrefab, 5);
+            ModUtils.InsertIntoLootTable(LootTableName.LootTableFridge, beerBottlePrefab, 10);
+            ModUtils.InsertIntoLootTable(LootTableName.LootTableFreezer, beerBottlePrefab, 10);
+            ModUtils.InsertIntoLootTable(LootTableName.LootTableWardrobe_regular, beerBottlePrefab, 2);
         }
     }
 }
