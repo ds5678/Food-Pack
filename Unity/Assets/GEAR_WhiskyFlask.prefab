@@ -9,52 +9,35 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1128408092077856}
+  m_RootGameObject: {fileID: 1782058293989600}
   m_IsPrefabParent: 1
---- !u!1 &1128408092077856
+--- !u!1 &1071590219056322
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4932906001674362}
-  - component: {fileID: 65731178355981180}
-  - component: {fileID: 114503591705163680}
+  - component: {fileID: 4584475628060938}
+  - component: {fileID: 33132652680690986}
+  - component: {fileID: 23870725000110368}
   m_Layer: 17
-  m_Name: GEAR_BeerBottle
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1258915902953760
+--- !u!1 &1330301827842134
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4686827651449738}
-  - component: {fileID: 33848083137209958}
-  - component: {fileID: 23813737119951292}
-  m_Layer: 17
-  m_Name: Bottle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1811426500249068
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4701148988257336}
-  - component: {fileID: 33061852407198472}
-  - component: {fileID: 23618931594072776}
+  - component: {fileID: 4153004154883472}
+  - component: {fileID: 33202187649705080}
+  - component: {fileID: 23502629491682092}
   m_Layer: 17
   m_Name: Cap
   m_TagString: Untagged
@@ -62,53 +45,70 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4686827651449738
+--- !u!1 &1782058293989600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4867855419349806}
+  - component: {fileID: 65236894954914502}
+  - component: {fileID: 114923813411763952}
+  m_Layer: 17
+  m_Name: GEAR_WhiskyFlask
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4153004154883472
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258915902953760}
-  m_LocalRotation: {x: 0.00000031987892, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_GameObject: {fileID: 1330301827842134}
+  m_LocalRotation: {x: -0.6731096, y: 0.21661839, z: 0.21661839, w: 0.6731096}
+  m_LocalPosition: {x: -0, y: 0.15505981, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4932906001674362}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4701148988257336
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811426500249068}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.009666666, y: 0.009666666, z: 0.01}
-  m_Children: []
-  m_Father: {fileID: 4932906001674362}
+  m_Father: {fileID: 4867855419349806}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4932906001674362
+--- !u!4 &4584475628060938
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
+  m_GameObject: {fileID: 1071590219056322}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 2.64354e-10, y: 0.07500001, z: -0.0011866041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4867855419349806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4867855419349806
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4686827651449738}
-  - {fileID: 4701148988257336}
+  - {fileID: 4584475628060938}
+  - {fileID: 4153004154883472}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23618931594072776
+--- !u!23 &23502629491682092
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811426500249068}
+  m_GameObject: {fileID: 1330301827842134}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -116,7 +116,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6c6a0b0060061cd4883a88b50b20b869, type: 2}
+  - {fileID: 2100000, guid: a8edb129434fd4341aea0bdbd7ec3ef6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -135,12 +135,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!23 &23813737119951292
+--- !u!23 &23870725000110368
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258915902953760}
+  m_GameObject: {fileID: 1071590219056322}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -148,7 +148,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: c12224f4fdc38d14ca003eb4ee7072a7, type: 2}
+  - {fileID: 2100000, guid: a8edb129434fd4341aea0bdbd7ec3ef6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -167,78 +167,78 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33061852407198472
+--- !u!33 &33132652680690986
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811426500249068}
-  m_Mesh: {fileID: 4300002, guid: e0334387217de8047b22fbf54b5d463a, type: 3}
---- !u!33 &33848083137209958
+  m_GameObject: {fileID: 1071590219056322}
+  m_Mesh: {fileID: 4300000, guid: f31d5a5fc4403b14bab75fbef8c3c1fc, type: 3}
+--- !u!33 &33202187649705080
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258915902953760}
-  m_Mesh: {fileID: 4300000, guid: e0334387217de8047b22fbf54b5d463a, type: 3}
---- !u!65 &65731178355981180
+  m_GameObject: {fileID: 1330301827842134}
+  m_Mesh: {fileID: 4300002, guid: f31d5a5fc4403b14bab75fbef8c3c1fc, type: 3}
+--- !u!65 &65236894954914502
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
+  m_GameObject: {fileID: 1782058293989600}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.068633005, y: 0.256172, z: 0.068817}
-  m_Center: {x: 0, y: 0.127965, z: 0}
---- !u!114 &114503591705163680
+  m_Size: {x: 0.10801, y: 0.16, z: 0.03329801}
+  m_Center: {x: -0.000052999705, y: 0.08, z: 0}
+--- !u!114 &114923813411763952
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
+  m_GameObject: {fileID: 1782058293989600}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisplayNameLocalizationId: GAMEPLAY_BeerBottle
-  DescriptionLocalizatonId: GAMEPLAY_BeerBottleDescription
+  DisplayNameLocalizationId: GAMEPLAY_WhiskyFlask
+  DescriptionLocalizatonId: GAMEPLAY_WhiskyFlaskDescription
   InventoryActionLocalizationId: 
-  WeightKG: 0.5
+  WeightKG: 0.24
   MaxHP: 100
   DaysToDecay: 0
-  PickUpAudio: Play_SndInvBeer
+  PickUpAudio: Play_SndInvFlask
   StowAudio: Play_InventoryStow
-  PutBackAudio: Play_SndInvBeer
+  PutBackAudio: Play_SndInvFlask
   WornOutAudio: 
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
-  InspectAngles: {x: 20, y: 0, z: -20}
+  InspectAngles: {x: -20, y: 20, z: -20}
   InspectOffset: {x: 0, y: -0.1, z: 0}
-  DaysToDecayOutdoors: 1000
-  DaysToDecayIndoors: 365
-  Calories: 200
-  Servings: 1
+  DaysToDecayOutdoors: 0
+  DaysToDecayIndoors: 0
+  Calories: 480
+  Servings: 8
   EatingTime: 7
-  ThirstEffect: 40
+  ThirstEffect: 1
   FoodPoisoning: 0
   FoodPoisoningLowCondition: 0
   ParasiteRiskIncrements: []
-  EatingAudio: Play_SndDrinkBeer
-  EatingPackagedAudio: Play_SndOpenDrinkBeer
+  EatingAudio: Play_SndDrinkWhiskyFlask
+  EatingPackagedAudio: 
   Natural: 0
   Raw: 0
   Drink: 1
   Meat: 0
   Fish: 0
   Cooking: 0
-  CookingMinutes: 1
+  CookingMinutes: 0
   CookingWaterRequired: 0
-  CookingUnitsRequired: 1
+  CookingUnitsRequired: 0
   CookingAudio: 
   Opening: 0
   OpeningWithCanOpener: 0
@@ -250,5 +250,5 @@ MonoBehaviour:
   RestFactor: 0
   RestFactorMinutes: 0
   ContainsAlcohol: 1
-  AlcoholPercentage: 5
+  AlcoholPercentage: 40
   AlcoholUptakeMinutes: 45

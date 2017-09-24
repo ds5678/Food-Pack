@@ -50,8 +50,8 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1271920549399990}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -120,23 +120,37 @@ MonoBehaviour:
   InspectDistance: 0.35
   InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: 20, y: 20, z: -20}
+  InspectOffset: {x: 0, y: -0.1, z: 0}
   DaysToDecayOutdoors: 100
   DaysToDecayIndoors: 1000
   Calories: 150
+  Servings: 1
   EatingTime: 4
   ThirstEffect: 25
   FoodPoisoning: 0
   FoodPoisoningLowCondition: 0
   ParasiteRiskIncrements: []
   EatingAudio: Play_OpenSoda
-  EatingPackagedAudio: Play_OpenSoda
+  EatingPackagedAudio: 
   Natural: 0
   Raw: 0
   Drink: 1
   Meat: 0
-  Fish: 1
-  CanBeHeated: 0
+  Fish: 0
+  Cooking: 0
+  CookingMinutes: 1
+  CookingWaterRequired: 0
+  CookingUnitsRequired: 1
+  CookingAudio: 
+  Opening: 0
+  OpeningWithCanOpener: 0
+  OpeningWithKnife: 0
+  OpeningWithHatchet: 0
+  OpeningWithSmashing: 0
   AffectRest: 1
   InstantRestChange: 10
-  RestFactor: 0.8
+  RestFactor: 0.75
   RestFactorMinutes: 60
+  ContainsAlcohol: 0
+  AlcoholPercentage: 0
+  AlcoholUptakeMinutes: 45

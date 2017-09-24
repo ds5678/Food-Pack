@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1015742753245210}
+  m_RootGameObject: {fileID: 1081648951170646}
   m_IsPrefabParent: 1
---- !u!1 &1015742753245210
+--- !u!1 &1081648951170646
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4744426794095872}
-  - component: {fileID: 33431211191316452}
-  - component: {fileID: 23510253801440870}
-  - component: {fileID: 114350524219811962}
-  - component: {fileID: 65339104217549348}
-  m_Layer: 17
-  m_Name: GEAR_Cornflakes
+  - component: {fileID: 4754787673727674}
+  - component: {fileID: 33649921223885134}
+  - component: {fileID: 23453809962205964}
+  - component: {fileID: 114245241874584154}
+  - component: {fileID: 65170695119275516}
+  m_Layer: 0
+  m_Name: GEAR_CatFood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4744426794095872
+--- !u!4 &4754787673727674
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1015742753245210}
-  m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1081648951170646}
+  m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23510253801440870
+--- !u!23 &23453809962205964
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1015742753245210}
+  m_GameObject: {fileID: 1081648951170646}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -56,7 +56,8 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 398ac235710434c46b08ae021d93eb5b, type: 2}
+  - {fileID: 2100000, guid: 0b4b076c6dab2f947b8e58e527a1660a, type: 2}
+  - {fileID: 2100000, guid: c98e34d28b98d29488471180a98e9e5c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75,62 +76,62 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33431211191316452
+--- !u!33 &33649921223885134
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1015742753245210}
-  m_Mesh: {fileID: 4300000, guid: 1355801365a6a1049b108672b6de908d, type: 3}
---- !u!65 &65339104217549348
+  m_GameObject: {fileID: 1081648951170646}
+  m_Mesh: {fileID: 4300000, guid: 247f6258f67499e4eaf8301cf25f0a01, type: 3}
+--- !u!65 &65170695119275516
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1015742753245210}
+  m_GameObject: {fileID: 1081648951170646}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.238302, y: 0.299515, z: 0.073575}
-  m_Center: {x: 0, y: 0.14978349, z: 0}
---- !u!114 &114350524219811962
+  m_Size: {x: 0.076484, y: 0.109837, z: 0.072756}
+  m_Center: {x: 0, y: 0.0548645, z: 0}
+--- !u!114 &114245241874584154
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1015742753245210}
+  m_GameObject: {fileID: 1081648951170646}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisplayNameLocalizationId: GAMEPLAY_Cornflakes
-  DescriptionLocalizatonId: GAMEPLAY_CornflakesDescription
+  DisplayNameLocalizationId: GAMEPLAY_CatFood
+  DescriptionLocalizatonId: GAMEPLAY_CatFoodDescription
   InventoryActionLocalizationId: 
   WeightKG: 0.4
   MaxHP: 100
   DaysToDecay: 0
-  PickUpAudio: Play_SndInvBoxCrackers
+  PickUpAudio: Play_SndInvCanLarge
   StowAudio: Play_InventoryStow
-  PutBackAudio: Play_SndInvBoxCrackers
+  PutBackAudio: Play_SndInvCanLarge
   WornOutAudio: 
   InspectOnPickup: 1
-  InspectDistance: 0.4
-  InspectScale: {x: 1, y: 1, z: 1}
-  InspectAngles: {x: 5, y: 20, z: -5}
-  InspectOffset: {x: 0, y: -0.15, z: 0}
-  DaysToDecayOutdoors: 100
-  DaysToDecayIndoors: 1000
-  Calories: 1400
-  Servings: 4
-  EatingTime: 8
-  ThirstEffect: -25
+  InspectDistance: 0.375
+  InspectScale: {x: 0.9, y: 0.9, z: 0.9}
+  InspectAngles: {x: -10, y: -70, z: -25}
+  InspectOffset: {x: 0, y: -0.1, z: 0}
+  DaysToDecayOutdoors: 730
+  DaysToDecayIndoors: 365
+  Calories: 450
+  Servings: 1
+  EatingTime: 3
+  ThirstEffect: 5
   FoodPoisoning: 0
-  FoodPoisoningLowCondition: 5
+  FoodPoisoningLowCondition: 30
   ParasiteRiskIncrements: []
-  EatingAudio: Play_SndEatCornflakes
-  EatingPackagedAudio: Play_SndEatCornflakes
+  EatingAudio: Play_EatingSoft
+  EatingPackagedAudio: Play_EatingCanned
   Natural: 0
   Raw: 0
   Drink: 0
@@ -141,11 +142,11 @@ MonoBehaviour:
   CookingWaterRequired: 0
   CookingUnitsRequired: 1
   CookingAudio: 
-  Opening: 0
-  OpeningWithCanOpener: 0
-  OpeningWithKnife: 0
-  OpeningWithHatchet: 0
-  OpeningWithSmashing: 0
+  Opening: 1
+  OpeningWithCanOpener: 1
+  OpeningWithKnife: 1
+  OpeningWithHatchet: 1
+  OpeningWithSmashing: 1
   AffectRest: 0
   InstantRestChange: 0
   RestFactor: 0
