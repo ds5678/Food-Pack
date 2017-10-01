@@ -117,8 +117,8 @@ MonoBehaviour:
   PutBackAudio: Play_SndInvCanLarge
   WornOutAudio: 
   InspectOnPickup: 1
-  InspectDistance: 0.375
-  InspectScale: {x: 0.9, y: 0.9, z: 0.9}
+  InspectDistance: 0.4
+  InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: -10, y: -70, z: -25}
   InspectOffset: {x: 0, y: -0.1, z: 0}
   DaysToDecayOutdoors: 730

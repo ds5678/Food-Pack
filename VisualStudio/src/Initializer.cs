@@ -18,6 +18,9 @@ namespace FoodPack
             InitCatFood();
             InitCornflakes();
             InitEnergyDrink();
+            InitPremiumPineapple();
+            InitRiceCooked();
+            InitRiceRaw();
             InitWhiskyFlask();
         }
 
@@ -69,6 +72,30 @@ namespace FoodPack
                 .AddToLootTable(LootTablePlasticBox, 2)
                 .SpawnAt(QuonsetGasStation, new Vector3(6.441633f, 1.580515f, 0.5635147f), new Quaternion(0f, 0.3228113f, 0f, -0.9464633f), 0.8f)
                 .SpawnAt(QuonsetGasStation, new Vector3(6.42512f, 1.580515f, 0.6616064f), new Quaternion(0f, 0.9846468f, 0f, 0.1745584f), 0.8f);
+        }
+
+        private static void InitPremiumPineapple()
+        {
+            Mapper.Map("GEAR_PremiumPineapples")
+                .RegisterInConsole("PremiumPineapples")
+                .AddToLootTable(LootTableBackPack, 3)
+                .AddToLootTable(LootTableKitchenCupboard, 5)
+                .AddToLootTable(LootTableWardrobe_regular, 2);
+        }
+
+        private static void InitRiceCooked()
+        {
+            Mapper.Map("GEAR_RiceCooked")
+                .RegisterInConsole("RiceCooked")
+                .AddToLootTable(LootTableFreezer, 2);
+        }
+
+        private static void InitRiceRaw()
+        {
+            Mapper.Map("GEAR_RiceRaw")
+                .RegisterInConsole("RiceRaw")
+                .AddToLootTable(LootTableKitchenCupboard, 5)
+                .AddToLootTable(LootTablePlasticBox, 2);
         }
 
         private static void InitWhiskyFlask()
