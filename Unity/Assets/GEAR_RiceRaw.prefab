@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23975333041789540}
   - component: {fileID: 65691939599979310}
   - component: {fileID: 114169481480507660}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_RiceRaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}

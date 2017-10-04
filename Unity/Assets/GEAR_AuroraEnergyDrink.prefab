@@ -109,39 +109,40 @@ MonoBehaviour:
   DisplayNameLocalizationId: GAMEPLAY_AuroraEnergyDrink
   DescriptionLocalizatonId: GAMEPLAY_AuroraEnergyDrinkDescription
   InventoryActionLocalizationId: 
-  WeightKG: 0.25
-  MaxHP: 100
-  DaysToDecay: 0
   PickUpAudio: Play_SndInvCanSoda
   StowAudio: Play_InventoryStow
   PutBackAudio: Play_SndInvCanSoda
   WornOutAudio: 
+  WeightKG: 0.25
+  MaxHP: 100
+  DaysToDecay: 0
   InspectOnPickup: 1
-  InspectDistance: 0.35
+  InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: 20, y: 20, z: -20}
   InspectOffset: {x: 0, y: -0.1, z: 0}
-  DaysToDecayOutdoors: 100
-  DaysToDecayIndoors: 1000
-  Calories: 150
-  Servings: 1
-  EatingTime: 4
-  ThirstEffect: 25
-  FoodPoisoning: 0
-  FoodPoisoningLowCondition: 0
-  ParasiteRiskIncrements: []
-  EatingAudio: Play_OpenSoda
-  EatingPackagedAudio: 
-  Natural: 0
-  Raw: 0
-  Drink: 1
-  Meat: 0
-  Fish: 0
   Cooking: 0
   CookingMinutes: 1
   CookingWaterRequired: 0
   CookingUnitsRequired: 1
   CookingAudio: 
+  CookingResult: {fileID: 0}
+  DaysToDecayOutdoors: 100
+  DaysToDecayIndoors: 1000
+  Calories: 150
+  Servings: 1
+  EatingTime: 4
+  EatingAudio: Play_OpenSoda
+  EatingPackagedAudio: 
+  ThirstEffect: 25
+  FoodPoisoning: 0
+  FoodPoisoningLowCondition: 0
+  ParasiteRiskIncrements: []
+  Natural: 0
+  Raw: 0
+  Drink: 1
+  Meat: 0
+  Fish: 0
   Opening: 0
   OpeningWithCanOpener: 0
   OpeningWithKnife: 0

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4425362422418902}
   - component: {fileID: 33174015578689104}
   - component: {fileID: 23981471934547104}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Contents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4625248857822890}
   - component: {fileID: 65742905380751922}
   - component: {fileID: 114980021613948218}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_RiceCooked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4305793020497732}
   - component: {fileID: 33454641264563914}
   - component: {fileID: 23821321705342392}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Bowl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,8 +113,8 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 12dd87dc2f7535140a49c63a10329b34, type: 2}
   m_StaticBatchInfo:
@@ -145,8 +145,8 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 9f68b4c37bbdb5c438437da9b37060f9, type: 2}
   m_StaticBatchInfo:

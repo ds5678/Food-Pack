@@ -207,39 +207,40 @@ MonoBehaviour:
   DisplayNameLocalizationId: GAMEPLAY_BeerBottle
   DescriptionLocalizatonId: GAMEPLAY_BeerBottleDescription
   InventoryActionLocalizationId: 
-  WeightKG: 0.5
-  MaxHP: 100
-  DaysToDecay: 0
   PickUpAudio: Play_SndInvBeer
   StowAudio: Play_InventoryStow
   PutBackAudio: Play_SndInvBeer
   WornOutAudio: 
+  WeightKG: 0.5
+  MaxHP: 100
+  DaysToDecay: 0
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: 20, y: 0, z: -20}
   InspectOffset: {x: 0, y: -0.1, z: 0}
-  DaysToDecayOutdoors: 1000
-  DaysToDecayIndoors: 365
-  Calories: 200
-  Servings: 1
-  EatingTime: 7
-  ThirstEffect: 40
-  FoodPoisoning: 0
-  FoodPoisoningLowCondition: 0
-  ParasiteRiskIncrements: []
-  EatingAudio: Play_SndDrinkBeer
-  EatingPackagedAudio: Play_SndOpenDrinkBeer
-  Natural: 0
-  Raw: 0
-  Drink: 1
-  Meat: 0
-  Fish: 0
   Cooking: 0
   CookingMinutes: 1
   CookingWaterRequired: 0
   CookingUnitsRequired: 1
   CookingAudio: 
+  CookingResult: {fileID: 0}
+  DaysToDecayOutdoors: 1000
+  DaysToDecayIndoors: 365
+  Calories: 200
+  Servings: 1
+  EatingTime: 7
+  EatingAudio: Play_SndDrinkBeer
+  EatingPackagedAudio: Play_SndOpenDrinkBeer
+  ThirstEffect: 40
+  FoodPoisoning: 0
+  FoodPoisoningLowCondition: 0
+  ParasiteRiskIncrements: []
+  Natural: 0
+  Raw: 0
+  Drink: 1
+  Meat: 0
+  Fish: 0
   Opening: 0
   OpeningWithCanOpener: 0
   OpeningWithKnife: 0

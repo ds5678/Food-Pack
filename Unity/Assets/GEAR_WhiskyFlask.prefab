@@ -207,39 +207,40 @@ MonoBehaviour:
   DisplayNameLocalizationId: GAMEPLAY_WhiskyFlask
   DescriptionLocalizatonId: GAMEPLAY_WhiskyFlaskDescription
   InventoryActionLocalizationId: 
-  WeightKG: 0.24
-  MaxHP: 100
-  DaysToDecay: 0
   PickUpAudio: Play_SndInvFlask
   StowAudio: Play_InventoryStow
   PutBackAudio: Play_SndInvFlask
   WornOutAudio: 
+  WeightKG: 0.24
+  MaxHP: 100
+  DaysToDecay: 0
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: -20, y: 20, z: -20}
   InspectOffset: {x: 0, y: -0.1, z: 0}
-  DaysToDecayOutdoors: 0
-  DaysToDecayIndoors: 0
-  Calories: 480
-  Servings: 8
-  EatingTime: 7
-  ThirstEffect: 1
-  FoodPoisoning: 0
-  FoodPoisoningLowCondition: 0
-  ParasiteRiskIncrements: []
-  EatingAudio: Play_SndDrinkWhiskyFlask
-  EatingPackagedAudio: 
-  Natural: 0
-  Raw: 0
-  Drink: 1
-  Meat: 0
-  Fish: 0
   Cooking: 0
   CookingMinutes: 0
   CookingWaterRequired: 0
   CookingUnitsRequired: 0
   CookingAudio: 
+  CookingResult: {fileID: 0}
+  DaysToDecayOutdoors: 0
+  DaysToDecayIndoors: 0
+  Calories: 480
+  Servings: 8
+  EatingTime: 7
+  EatingAudio: Play_SndDrinkWhiskyFlask
+  EatingPackagedAudio: 
+  ThirstEffect: 1
+  FoodPoisoning: 0
+  FoodPoisoningLowCondition: 0
+  ParasiteRiskIncrements: []
+  Natural: 0
+  Raw: 0
+  Drink: 1
+  Meat: 0
+  Fish: 0
   Opening: 0
   OpeningWithCanOpener: 0
   OpeningWithKnife: 0

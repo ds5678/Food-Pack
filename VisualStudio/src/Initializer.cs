@@ -18,7 +18,9 @@ namespace FoodPack
             InitCatFood();
             InitCornflakes();
             InitEnergyDrink();
-            InitPremiumPineapple();
+            InitCannedMangos();
+            InitCannedPears();
+            InitCannedPineapple();
             InitRiceCooked();
             InitRiceRaw();
             InitWhiskyFlask();
@@ -36,6 +38,33 @@ namespace FoodPack
                 .SpawnAt(CoastalHouseD, new Vector3(-4.839812f, 1.111778E-08f, -3.762105f), new Quaternion(0f, 0.1553226f, 0f, -0.9878638f), 0.5f)
                 .SpawnAt(CoastalHouseD, new Vector3(-4.922742f, 8.160018E-09f, -3.724864f), new Quaternion(0f, 0.8732297f, 0f, 0.4873089f), 0.5f)
                 .SpawnAt(CoastalHouseD, new Vector3(-4.866387f, 7.929452E-09f, -3.663046f), new Quaternion(0f, 0.991212f, 0f, -0.1322829f), 0.5f);
+        }
+
+        private static void InitCannedMangos()
+        {
+            Mapper.Map("GEAR_CannedMangos")
+                .RegisterInConsole("CannedMangos")
+                .AddToLootTable(LootTableBackPack, 2)
+                .AddToLootTable(LootTableKitchenCupboard, 3)
+                .AddToLootTable(LootTableWardrobe_regular, 1);
+        }
+
+        private static void InitCannedPears()
+        {
+            Mapper.Map("GEAR_CannedPears")
+                .RegisterInConsole("CannedPears")
+                .AddToLootTable(LootTableBackPack, 3)
+                .AddToLootTable(LootTableKitchenCupboard, 4)
+                .AddToLootTable(LootTableWardrobe_regular, 2);
+        }
+
+        private static void InitCannedPineapple()
+        {
+            Mapper.Map("GEAR_CannedPineapples")
+                .RegisterInConsole("CannedPineapples")
+                .AddToLootTable(LootTableBackPack, 4)
+                .AddToLootTable(LootTableKitchenCupboard, 5)
+                .AddToLootTable(LootTableWardrobe_regular, 3);
         }
 
         private static void InitCatFood()
@@ -73,16 +102,6 @@ namespace FoodPack
                 .SpawnAt(QuonsetGasStation, new Vector3(6.441633f, 1.580515f, 0.5635147f), new Quaternion(0f, 0.3228113f, 0f, -0.9464633f), 0.8f)
                 .SpawnAt(QuonsetGasStation, new Vector3(6.42512f, 1.580515f, 0.6616064f), new Quaternion(0f, 0.9846468f, 0f, 0.1745584f), 0.8f);
         }
-
-        private static void InitPremiumPineapple()
-        {
-            Mapper.Map("GEAR_PremiumPineapples")
-                .RegisterInConsole("PremiumPineapples")
-                .AddToLootTable(LootTableBackPack, 3)
-                .AddToLootTable(LootTableKitchenCupboard, 5)
-                .AddToLootTable(LootTableWardrobe_regular, 2);
-        }
-
         private static void InitRiceCooked()
         {
             Mapper.Map("GEAR_RiceCooked")
