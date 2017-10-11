@@ -55,6 +55,14 @@ GameObject:
   - component: {fileID: 4867855419349806}
   - component: {fileID: 65236894954914502}
   - component: {fileID: 114923813411763952}
+  - component: {fileID: 114727846269824976}
+  - component: {fileID: 114253650722195174}
+  - component: {fileID: 114974119987330640}
+  - component: {fileID: 114049030234898198}
+  - component: {fileID: 114030911166996000}
+  - component: {fileID: 114340704355058906}
+  - component: {fileID: 114105540886471154}
+  - component: {fileID: 114607790167288592}
   m_Layer: 17
   m_Name: GEAR_WhiskyFlask
   m_TagString: Untagged
@@ -193,6 +201,101 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10801, y: 0.16, z: 0.03329801}
   m_Center: {x: -0.000052999705, y: 0.08, z: 0}
+--- !u!114 &114030911166996000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 40
+  Weight: 1
+--- !u!114 &114049030234898198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 35
+  Weight: 1
+--- !u!114 &114105540886471154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 78
+  Position: {x: -3.9634132, y: 0, z: -3.8800402}
+  Rotation: {x: 0, y: 267.44855, z: 0}
+  SpawnChance: 80
+--- !u!114 &114253650722195174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 65
+  Weight: 1
+--- !u!114 &114340704355058906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 46
+  Weight: 1
+--- !u!114 &114607790167288592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 79
+  Position: {x: 3.424362, y: 0.5312789, z: 3.9366393}
+  Rotation: {x: 0, y: 351.69507, z: 0}
+  SpawnChance: 100
+--- !u!114 &114727846269824976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 0
+  Weight: 1
 --- !u!114 &114923813411763952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -204,6 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConsoleName: 
   DisplayNameLocalizationId: GAMEPLAY_WhiskyFlask
   DescriptionLocalizatonId: GAMEPLAY_WhiskyFlaskDescription
   InventoryActionLocalizationId: 
@@ -253,3 +357,16 @@ MonoBehaviour:
   ContainsAlcohol: 1
   AlcoholPercentage: 40
   AlcoholUptakeMinutes: 45
+--- !u!114 &114974119987330640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1782058293989600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 39
+  Weight: 1

@@ -23,6 +23,9 @@ GameObject:
   - component: {fileID: 23510253801440870}
   - component: {fileID: 65339104217549348}
   - component: {fileID: 114350524219811962}
+  - component: {fileID: 114022443528051648}
+  - component: {fileID: 114239582380307476}
+  - component: {fileID: 114375164771510900}
   m_Layer: 17
   m_Name: GEAR_Cornflakes
   m_TagString: Untagged
@@ -94,6 +97,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.238302, y: 0.299515, z: 0.073575}
   m_Center: {x: 0, y: 0.14978349, z: 0}
+--- !u!114 &114022443528051648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015742753245210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 48
+  Weight: 10
+--- !u!114 &114239582380307476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015742753245210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 23
+  Position: {x: 3.5498745, y: 0.8793671, z: 6.738133}
+  Rotation: {x: 0, y: 92.046455, z: 0}
+  SpawnChance: 100
 --- !u!114 &114350524219811962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -105,6 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConsoleName: 
   DisplayNameLocalizationId: GAMEPLAY_Cornflakes
   DescriptionLocalizatonId: GAMEPLAY_CornflakesDescription
   InventoryActionLocalizationId: 
@@ -154,3 +186,18 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
+--- !u!114 &114375164771510900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015742753245210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 78
+  Position: {x: 4.3639054, y: 0.39897728, z: 0.26528037}
+  Rotation: {x: 0, y: 259.5036, z: 0}
+  SpawnChance: 80

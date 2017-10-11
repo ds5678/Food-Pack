@@ -23,6 +23,12 @@ GameObject:
   - component: {fileID: 23262449590176354}
   - component: {fileID: 65866157971653244}
   - component: {fileID: 114399183911459850}
+  - component: {fileID: 114496558505474654}
+  - component: {fileID: 114477889138122216}
+  - component: {fileID: 114187751674896306}
+  - component: {fileID: 114093724789294076}
+  - component: {fileID: 114680858539188158}
+  - component: {fileID: 114104153591775052}
   m_Layer: 17
   m_Name: GEAR_AuroraEnergyDrink
   m_TagString: Untagged
@@ -95,6 +101,47 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05, y: 0.135, z: 0.05}
   m_Center: {x: 0, y: 0.067473, z: 0}
+--- !u!114 &114093724789294076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271920549399990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 54
+  Weight: 2
+--- !u!114 &114104153591775052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271920549399990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 78
+  Position: {x: 6.471491, y: 1.5805148, z: 0.60533625}
+  Rotation: {x: 0, y: 191.41179, z: 0}
+  SpawnChance: 80
+--- !u!114 &114187751674896306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271920549399990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 44
+  Weight: 5
 --- !u!114 &114399183911459850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConsoleName: 
   DisplayNameLocalizationId: GAMEPLAY_AuroraEnergyDrink
   DescriptionLocalizatonId: GAMEPLAY_AuroraEnergyDrinkDescription
   InventoryActionLocalizationId: 
@@ -155,3 +203,44 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
+--- !u!114 &114477889138122216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271920549399990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 48
+  Weight: 3
+--- !u!114 &114496558505474654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271920549399990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 0
+  Weight: 5
+--- !u!114 &114680858539188158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271920549399990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 78
+  Position: {x: 6.400446, y: 1.5805148, z: 0.60704637}
+  Rotation: {x: 0, y: 181.55559, z: 0}
+  SpawnChance: 80

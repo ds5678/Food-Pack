@@ -1,24 +1,20 @@
 fileFormatVersion: 2
 guid: eac0c35b58a160d43aacfbbc12e4886f
-timeCreated: 1506796872
+timeCreated: 1507480259
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Bowl
-    100002: //RootNode
-    100004: Contents
-    400000: Bowl
-    400002: //RootNode
-    400004: Contents
-    2300000: Bowl
+    100000: //RootNode
+    100002: Contents
+    400000: //RootNode
+    400002: Contents
+    2300000: //RootNode
     2300002: Contents
-    3300000: Bowl
+    3300000: //RootNode
     3300002: Contents
-    4300000: Contents
-    4300002: Bowl
-    7400000: Default Take
-    9500000: //RootNode
+    4300000: Bowl
+    4300002: Contents
   materials:
     importMaterials: 1
     materialName: 0
@@ -64,7 +60,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -83,7 +79,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
