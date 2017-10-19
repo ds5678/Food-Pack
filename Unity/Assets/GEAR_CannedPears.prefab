@@ -148,6 +148,7 @@ MonoBehaviour:
   Drink: 0
   Meat: 0
   Fish: 0
+  Canned: 0
   Opening: 1
   OpeningWithCanOpener: 1
   OpeningWithKnife: 1
@@ -157,6 +158,10 @@ MonoBehaviour:
   InstantRestChange: 0
   RestFactor: 0
   RestFactorMinutes: 0
+  AffectCold: 1
+  InstantColdChange: 20
+  ColdFactor: 0.5
+  ColdFactorMinutes: 60
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45

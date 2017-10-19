@@ -9,50 +9,52 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1119220375682338}
+  m_RootGameObject: {fileID: 1811600671103446}
   m_IsPrefabParent: 1
---- !u!1 &1119220375682338
+--- !u!1 &1811600671103446
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4368672584588374}
-  - component: {fileID: 33302543905242776}
-  - component: {fileID: 23834093343318072}
-  - component: {fileID: 65897804223757026}
-  - component: {fileID: 114144170058761610}
-  - component: {fileID: 114016183414416206}
-  - component: {fileID: 114790568472181812}
-  - component: {fileID: 114469802247103790}
-  - component: {fileID: 114911175768263282}
-  m_Layer: 17
-  m_Name: GEAR_CannedPineapples
+  - component: {fileID: 4008910116000142}
+  - component: {fileID: 33091402159227724}
+  - component: {fileID: 23984906374440880}
+  - component: {fileID: 65802927247899558}
+  - component: {fileID: 114613765940980842}
+  - component: {fileID: 114069384388818612}
+  - component: {fileID: 114012388207474962}
+  - component: {fileID: 114852160527881064}
+  - component: {fileID: 114153120141962564}
+  - component: {fileID: 114436441260874934}
+  - component: {fileID: 114468393080297096}
+  m_Layer: 0
+  m_Name: GEAR_CannedStew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4368672584588374
+--- !u!4 &4008910116000142
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1811600671103446}
+  m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23834093343318072
+--- !u!23 &23984906374440880
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
+  m_GameObject: {fileID: 1811600671103446}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -60,7 +62,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40c96914700004f438eabb4aa7faab1f, type: 2}
+  - {fileID: 2100000, guid: b03940f373027984fa08eb04f98be21e, type: 2}
   - {fileID: 2100000, guid: c98e34d28b98d29488471180a98e9e5c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -80,58 +82,112 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33302543905242776
+--- !u!33 &33091402159227724
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Mesh: {fileID: 4300000, guid: f8cf018828f42024ab8f85e560f96989, type: 3}
---- !u!65 &65897804223757026
+  m_GameObject: {fileID: 1811600671103446}
+  m_Mesh: {fileID: 4300000, guid: 247f6258f67499e4eaf8301cf25f0a01, type: 3}
+--- !u!65 &65802927247899558
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
+  m_GameObject: {fileID: 1811600671103446}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.120000005, z: 0.1}
-  m_Center: {x: 0, y: 0.059942, z: 0}
---- !u!114 &114016183414416206
+  m_Size: {x: 0.076484, y: 0.109837, z: 0.072756}
+  m_Center: {x: 0, y: 0.0548645, z: 0}
+--- !u!114 &114012388207474962
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
+  m_GameObject: {fileID: 1811600671103446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 40
+  Weight: 2
+--- !u!114 &114069384388818612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811600671103446}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LootTable: 0
-  Weight: 4
---- !u!114 &114144170058761610
+  Weight: 2
+--- !u!114 &114153120141962564
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
+  m_GameObject: {fileID: 1811600671103446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 48
+  Weight: 5
+--- !u!114 &114436441260874934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811600671103446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootTable: 52
+  Weight: 2
+--- !u!114 &114468393080297096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811600671103446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 24
+  Position: {x: -1.5799251, y: 151.19635, z: -9.057547}
+  Rotation: {x: 0, y: 268.20844, z: 0}
+  SpawnChance: 80
+--- !u!114 &114613765940980842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811600671103446}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ConsoleName: 
-  DisplayNameLocalizationId: GAMEPLAY_CannedPineapples
-  DescriptionLocalizatonId: GAMEPLAY_CannedPineapplesDescription
+  DisplayNameLocalizationId: GAMEPLAY_CannedStew
+  DescriptionLocalizatonId: GAMEPLAY_CannedStewDescription
   InventoryActionLocalizationId: 
   PickUpAudio: Play_SndInvCanLarge
   StowAudio: Play_InventoryStow
   PutBackAudio: Play_SndInvCanLarge
   WornOutAudio: 
-  WeightKG: 0.8
+  WeightKG: 0.4
   MaxHP: 100
   DaysToDecay: 0
   InspectOnPickup: 1
@@ -147,21 +203,21 @@ MonoBehaviour:
   CookingResult: {fileID: 0}
   DaysToDecayOutdoors: 730
   DaysToDecayIndoors: 365
-  Calories: 480
+  Calories: 450
   Servings: 1
   EatingTime: 3
   EatingAudio: Play_EatingSoft
-  EatingPackagedAudio: Play_EatingCanned
-  ThirstEffect: 10
+  EatingPackagedAudio: Play_EatingSoftCanned
+  ThirstEffect: -10
   FoodPoisoning: 0
-  FoodPoisoningLowCondition: 20
+  FoodPoisoningLowCondition: 5
   ParasiteRiskIncrements: []
   Natural: 0
   Raw: 0
   Drink: 0
   Meat: 0
   Fish: 0
-  Canned: 0
+  Canned: 1
   Opening: 1
   OpeningWithCanOpener: 1
   OpeningWithKnife: 1
@@ -169,53 +225,25 @@ MonoBehaviour:
   OpeningWithSmashing: 1
   AffectRest: 0
   InstantRestChange: 0
-  RestFactor: 0
-  RestFactorMinutes: 0
+  RestFactor: 1
+  RestFactorMinutes: 60
   AffectCold: 1
   InstantColdChange: 20
   ColdFactor: 0.5
-  ColdFactorMinutes: 60
+  ColdFactorMinutes: 90
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
---- !u!114 &114469802247103790
+--- !u!114 &114852160527881064
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
+  m_GameObject: {fileID: 1811600671103446}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LootTable: 65
-  Weight: 3
---- !u!114 &114790568472181812
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 5
---- !u!114 &114911175768263282
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 78
-  Position: {x: 4.817338, y: 0.60546845, z: 3.705886}
-  Rotation: {x: 0, y: 81.99837, z: 0}
-  SpawnChance: 60
+  LootTable: 46
+  Weight: 1

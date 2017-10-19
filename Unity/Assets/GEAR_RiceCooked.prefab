@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65409776634999138}
   - component: {fileID: 114266477009939306}
   - component: {fileID: 114097523270553220}
+  - component: {fileID: 114662423567599610}
   m_Layer: 0
   m_Name: GEAR_RiceCooked
   m_TagString: Untagged
@@ -227,6 +228,7 @@ MonoBehaviour:
   Drink: 0
   Meat: 0
   Fish: 0
+  Canned: 0
   Opening: 0
   OpeningWithCanOpener: 0
   OpeningWithKnife: 0
@@ -236,6 +238,25 @@ MonoBehaviour:
   InstantRestChange: 0
   RestFactor: 0
   RestFactorMinutes: 0
+  AffectCold: 1
+  InstantColdChange: 10
+  ColdFactor: 0.75
+  ColdFactorMinutes: 30
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
+--- !u!114 &114662423567599610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060459505680880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scene: 23
+  Position: {x: -6.1701818, y: 0.9907272, z: -4.7736444}
+  Rotation: {x: 0, y: 237.71733, z: 0}
+  SpawnChance: 60
