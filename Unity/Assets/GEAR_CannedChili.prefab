@@ -23,12 +23,6 @@ GameObject:
   - component: {fileID: 23038068199225770}
   - component: {fileID: 65484766702577904}
   - component: {fileID: 114208529545352118}
-  - component: {fileID: 114782519127615530}
-  - component: {fileID: 114586511165156330}
-  - component: {fileID: 114806185912956460}
-  - component: {fileID: 114412487155486808}
-  - component: {fileID: 114222953318871496}
-  - component: {fileID: 114654125890304112}
   m_Layer: 0
   m_Name: GEAR_CannedChili
   m_TagString: Untagged
@@ -99,8 +93,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.120000005, z: 0.1}
-  m_Center: {x: 0, y: 0.059942, z: 0}
+  m_Size: {x: 0.110902, y: 0.159263, z: 0.105496}
+  m_Center: {x: 0, y: 0.07955351, z: 0}
 --- !u!114 &114208529545352118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,83 +161,3 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
---- !u!114 &114222953318871496
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264402637735074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 52
-  Weight: 2
---- !u!114 &114412487155486808
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264402637735074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 5
---- !u!114 &114586511165156330
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264402637735074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 40
-  Weight: 2
---- !u!114 &114654125890304112
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264402637735074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 23
-  Position: {x: 3.213, y: 0.549, z: 6.869}
-  Rotation: {x: 0, y: 83.41833, z: 0}
-  SpawnChance: 80
---- !u!114 &114782519127615530
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264402637735074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 0
-  Weight: 2
---- !u!114 &114806185912956460
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264402637735074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 46
-  Weight: 1

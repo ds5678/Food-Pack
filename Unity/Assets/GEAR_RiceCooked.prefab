@@ -23,8 +23,6 @@ GameObject:
   - component: {fileID: 23106103576896448}
   - component: {fileID: 65409776634999138}
   - component: {fileID: 114266477009939306}
-  - component: {fileID: 114097523270553220}
-  - component: {fileID: 114662423567599610}
   m_Layer: 0
   m_Name: GEAR_RiceCooked
   m_TagString: Untagged
@@ -166,19 +164,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.18466699, y: 0.082626, z: 0.184688}
   m_Center: {x: 0.0000005029142, y: 0.041461, z: 0}
---- !u!114 &114097523270553220
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060459505680880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 44
-  Weight: 2
 --- !u!114 &114266477009939306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -245,18 +230,3 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
---- !u!114 &114662423567599610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060459505680880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 23
-  Position: {x: -6.1701818, y: 0.9907272, z: -4.7736444}
-  Rotation: {x: 0, y: 237.71733, z: 0}
-  SpawnChance: 60

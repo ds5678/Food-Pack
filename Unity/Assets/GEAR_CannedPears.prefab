@@ -23,10 +23,6 @@ GameObject:
   - component: {fileID: 23316849893760460}
   - component: {fileID: 65982937765619776}
   - component: {fileID: 114283838763559322}
-  - component: {fileID: 114496388710903984}
-  - component: {fileID: 114474446533446786}
-  - component: {fileID: 114765069095495758}
-  - component: {fileID: 114637278928037066}
   m_Layer: 17
   m_Name: GEAR_CannedPears
   m_TagString: Untagged
@@ -97,8 +93,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.120000005, z: 0.1}
-  m_Center: {x: 0, y: 0.059942, z: 0}
+  m_Size: {x: 0.145, y: 0.174, z: 0.145}
+  m_Center: {x: 0, y: 0.086915, z: 0}
 --- !u!114 &114283838763559322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -165,57 +161,3 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
---- !u!114 &114474446533446786
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1788177173056840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 4
---- !u!114 &114496388710903984
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1788177173056840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 0
-  Weight: 3
---- !u!114 &114637278928037066
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1788177173056840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 78
-  Position: {x: 5.2348776, y: 0.60546845, z: 3.6333275}
-  Rotation: {x: 0, y: 90.41169, z: 0}
-  SpawnChance: 60
---- !u!114 &114765069095495758
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1788177173056840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 65
-  Weight: 2

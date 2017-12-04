@@ -23,10 +23,6 @@ GameObject:
   - component: {fileID: 23834093343318072}
   - component: {fileID: 65897804223757026}
   - component: {fileID: 114144170058761610}
-  - component: {fileID: 114016183414416206}
-  - component: {fileID: 114790568472181812}
-  - component: {fileID: 114469802247103790}
-  - component: {fileID: 114911175768263282}
   m_Layer: 17
   m_Name: GEAR_CannedPineapples
   m_TagString: Untagged
@@ -97,21 +93,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.120000005, z: 0.1}
-  m_Center: {x: 0, y: 0.059942, z: 0}
---- !u!114 &114016183414416206
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 0
-  Weight: 4
+  m_Size: {x: 0.145, y: 0.174, z: 0.145}
+  m_Center: {x: 0, y: 0.086915, z: 0}
 --- !u!114 &114144170058761610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -178,44 +161,3 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
---- !u!114 &114469802247103790
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 65
-  Weight: 3
---- !u!114 &114790568472181812
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 5
---- !u!114 &114911175768263282
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119220375682338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 78
-  Position: {x: 4.817338, y: 0.60546845, z: 3.705886}
-  Rotation: {x: 0, y: 81.99837, z: 0}
-  SpawnChance: 60

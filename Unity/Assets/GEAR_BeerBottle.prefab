@@ -21,17 +21,6 @@ GameObject:
   - component: {fileID: 4932906001674362}
   - component: {fileID: 65731178355981180}
   - component: {fileID: 114503591705163680}
-  - component: {fileID: 114358739885901990}
-  - component: {fileID: 114348560853795532}
-  - component: {fileID: 114042974298719280}
-  - component: {fileID: 114010669956492232}
-  - component: {fileID: 114850322881244654}
-  - component: {fileID: 114129885741173800}
-  - component: {fileID: 114029625267219364}
-  - component: {fileID: 114742946611701200}
-  - component: {fileID: 114654216087531470}
-  - component: {fileID: 114348163232027002}
-  - component: {fileID: 114096009296413178}
   m_Layer: 17
   m_Name: GEAR_BeerBottle
   m_TagString: Untagged
@@ -204,114 +193,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.068633005, y: 0.256172, z: 0.068817}
   m_Center: {x: 0, y: 0.127965, z: 0}
---- !u!114 &114010669956492232
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 43
-  Weight: 10
---- !u!114 &114029625267219364
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 10
-  Position: {x: -4.922742, y: 0, z: -3.724864}
-  Rotation: {x: 0, y: 86, z: 0}
-  SpawnChance: 50
---- !u!114 &114042974298719280
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 44
-  Weight: 10
---- !u!114 &114096009296413178
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 11
-  Weight: 50
---- !u!114 &114129885741173800
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 10
-  Position: {x: -4.839812, y: 0, z: -3.762105}
-  Rotation: {x: 0, y: 20, z: 0}
-  SpawnChance: 50
---- !u!114 &114348163232027002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 10
-  Weight: 50
---- !u!114 &114348560853795532
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 5
---- !u!114 &114358739885901990
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 0
-  Weight: 3
 --- !u!114 &114503591705163680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -361,6 +242,7 @@ MonoBehaviour:
   Drink: 1
   Meat: 0
   Fish: 0
+  Canned: 0
   Opening: 0
   OpeningWithCanOpener: 0
   OpeningWithKnife: 0
@@ -370,47 +252,10 @@ MonoBehaviour:
   InstantRestChange: 0
   RestFactor: 0
   RestFactorMinutes: 0
+  AffectCold: 0
+  InstantColdChange: 20
+  ColdFactor: 0.5
+  ColdFactorMinutes: 60
   ContainsAlcohol: 1
   AlcoholPercentage: 5
   AlcoholUptakeMinutes: 45
---- !u!114 &114654216087531470
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 9
-  Weight: 50
---- !u!114 &114742946611701200
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 10
-  Position: {x: -4.866387, y: 0, z: -3.663046}
-  Rotation: {x: 0, y: 0, z: 0}
-  SpawnChance: 50
---- !u!114 &114850322881244654
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128408092077856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 65
-  Weight: 2

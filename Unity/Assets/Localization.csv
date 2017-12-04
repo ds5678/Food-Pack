@@ -25,3 +25,7 @@ GAMEPLAY_CannedStew, "Beef Stew", "Rindfleischeintopf", "Тушеная говя
 GAMEPLAY_CannedStewDescription, "A hearty meal with meat and vegetables. Good enough to forget about everything else for little while.", "Ein anständiges Essen mit Fleisch und Gemüse. Gut genug um alles andere für einen kurzen Moment zu vergessen.", "Сытный обед с мясом и овощами."
 GAMEPLAY_CannedSpaghetti, "Spaghetti with Meatballs", "Spaghetti mit Fleischbällchen", "Спагетти с фрикадельками"
 GAMEPLAY_CannedSpaghettiDescription, "Feed your inner child!", "Für das Kind in dir!", "Накормите своего внутреннего ребенка!"
+GAMEPLAY_HoneyJar, "Jar of Honey", "Honigglas"
+GAMEPLAY_HoneyJarDescription, "A true lifesaver! Honey provides calories, vitamins, minerals and will never spoil!", "Ein echter Lebensretter! Honig liefert Kalorien, Vitamine, Mineralien und verdirbt nicht!"
+GAMEPLAY_SPAM, "SPAM", "Frühstücksfleisch"
+GAMEPLAY_SPAMDescription, "Canned pork. Cheap and simple.", "Schweinefleisch in Dosen. Billig und einfach."

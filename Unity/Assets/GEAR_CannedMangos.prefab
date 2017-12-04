@@ -23,11 +23,6 @@ GameObject:
   - component: {fileID: 23600997522352026}
   - component: {fileID: 65706896228651104}
   - component: {fileID: 114262641896767300}
-  - component: {fileID: 114439739855072174}
-  - component: {fileID: 114866228495813528}
-  - component: {fileID: 114553648528680570}
-  - component: {fileID: 114831518754914250}
-  - component: {fileID: 114941531323586930}
   m_Layer: 17
   m_Name: GEAR_CannedMangos
   m_TagString: Untagged
@@ -98,8 +93,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.120000005, z: 0.1}
-  m_Center: {x: 0, y: 0.059942, z: 0}
+  m_Size: {x: 0.145, y: 0.174, z: 0.145}
+  m_Center: {x: 0, y: 0.086915, z: 0}
 --- !u!114 &114262641896767300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -166,72 +161,3 @@ MonoBehaviour:
   ContainsAlcohol: 0
   AlcoholPercentage: 0
   AlcoholUptakeMinutes: 45
---- !u!114 &114439739855072174
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875973599993336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 0
-  Weight: 2
---- !u!114 &114553648528680570
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875973599993336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 65
-  Weight: 1
---- !u!114 &114831518754914250
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875973599993336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 78
-  Position: {x: 5.5359597, y: 0.60546845, z: 3.6718674}
-  Rotation: {x: 0, y: 109.425606, z: 0}
-  SpawnChance: 80
---- !u!114 &114866228495813528
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875973599993336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 3
---- !u!114 &114941531323586930
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875973599993336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 78
-  Position: {x: 5.527483, y: 0.60546845, z: 3.80315}
-  Rotation: {x: 0, y: 84.61523, z: 0}
-  SpawnChance: 80

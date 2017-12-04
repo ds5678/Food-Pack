@@ -23,9 +23,6 @@ GameObject:
   - component: {fileID: 23975333041789540}
   - component: {fileID: 65691939599979310}
   - component: {fileID: 114169481480507660}
-  - component: {fileID: 114350732283477604}
-  - component: {fileID: 114171129140739718}
-  - component: {fileID: 114375305090337464}
   m_Layer: 17
   m_Name: GEAR_RiceRaw
   m_TagString: Untagged
@@ -41,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1588236526350070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,8 +92,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.238302, y: 0.299515, z: 0.073575}
-  m_Center: {x: 2.789935e-10, y: 0.14978349, z: -0.0005994992}
+  m_Size: {x: 0.23830199, y: 0.29951498, z: 0.07357499}
+  m_Center: {x: 0, y: 0.14978348, z: -0.00059949973}
 --- !u!114 &114169481480507660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -131,44 +128,3 @@ MonoBehaviour:
   CookingAudio: 
   CookingResult: {fileID: 1060459505680880, guid: f89907de497a7ed4ab0e8fd21d9eb2f8,
     type: 2}
---- !u!114 &114171129140739718
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1588236526350070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 54
-  Weight: 2
---- !u!114 &114350732283477604
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1588236526350070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 48
-  Weight: 5
---- !u!114 &114375305090337464
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1588236526350070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2078933988, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 23
-  Position: {x: 1.1799057, y: 1.5977724, z: 2.836175}
-  Rotation: {x: 0, y: 174.30753, z: 0}
-  SpawnChance: 80
