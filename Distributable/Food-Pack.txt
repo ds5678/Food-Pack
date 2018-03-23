@@ -139,6 +139,7 @@ item=CannedStew w=5
 item=CatFood w=5
 item=Cornflakes w=10
 item=HoneyJar w=2
+item=MapleSyrup w=2
 item=RiceRaw w=5
 item=SPAM w=2
 
