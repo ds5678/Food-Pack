@@ -52,6 +52,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -67,6 +68,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -106,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConsoleName: 
+  Radial: 0
   DisplayNameLocalizationId: GAMEPLAY_Cornflakes
   DescriptionLocalizatonId: GAMEPLAY_CornflakesDescription
   InventoryActionLocalizationId: 
@@ -119,7 +122,7 @@ MonoBehaviour:
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
-  InspectAngles: {x: 5, y: 20, z: -5}
+  InspectAngles: {x: -5, y: 200, z: 0}
   InspectOffset: {x: 0, y: -0.15, z: 0}
   Cooking: 0
   CookingMinutes: 1

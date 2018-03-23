@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1081648951170646}
+  m_RootGameObject: {fileID: 1674397944879078}
   m_IsPrefabParent: 1
---- !u!1 &1081648951170646
+--- !u!1 &1674397944879078
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4754787673727674}
-  - component: {fileID: 33649921223885134}
-  - component: {fileID: 23453809962205964}
-  - component: {fileID: 65170695119275516}
-  - component: {fileID: 114245241874584154}
-  m_Layer: 17
-  m_Name: GEAR_CatFood
+  - component: {fileID: 4495485068608524}
+  - component: {fileID: 33478625043990084}
+  - component: {fileID: 23745481061869444}
+  - component: {fileID: 114416493218746296}
+  - component: {fileID: 65426123558276128}
+  m_Layer: 0
+  m_Name: GEAR_MapleSyrup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4754787673727674
+--- !u!4 &4495485068608524
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081648951170646}
-  m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_GameObject: {fileID: 1674397944879078}
+  m_LocalRotation: {x: 0.00000031987892, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.448, y: 0, z: -0.3168}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23453809962205964
+--- !u!23 &23745481061869444
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081648951170646}
+  m_GameObject: {fileID: 1674397944879078}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,8 +57,8 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b4b076c6dab2f947b8e58e527a1660a, type: 2}
-  - {fileID: 2100000, guid: c98e34d28b98d29488471180a98e9e5c, type: 2}
+  - {fileID: 2100000, guid: 85a4d1338ed2d774dbb0a6e72fc0a093, type: 2}
+  - {fileID: 2100000, guid: 461e8c60f388261469b3062063bcf9f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,31 +78,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33649921223885134
+--- !u!33 &33478625043990084
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081648951170646}
-  m_Mesh: {fileID: 4300000, guid: 247f6258f67499e4eaf8301cf25f0a01, type: 3}
---- !u!65 &65170695119275516
+  m_GameObject: {fileID: 1674397944879078}
+  m_Mesh: {fileID: 4300000, guid: d3d654417b9ce7346849ae0e338a54df, type: 3}
+--- !u!65 &65426123558276128
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081648951170646}
+  m_GameObject: {fileID: 1674397944879078}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.110902, y: 0.159263, z: 0.105496}
-  m_Center: {x: 0, y: 0.07955351, z: 0}
---- !u!114 &114245241874584154
+  m_Size: {x: 0.13216701, y: 0.23628299, z: 0.133005}
+  m_Center: {x: -0.00020850077, y: 0.119507514, z: -0.00019152835}
+--- !u!114 &114416493218746296
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1081648951170646}
+  m_GameObject: {fileID: 1674397944879078}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
@@ -110,37 +110,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ConsoleName: 
   Radial: 0
-  DisplayNameLocalizationId: GAMEPLAY_CatFood
-  DescriptionLocalizatonId: GAMEPLAY_CatFoodDescription
+  DisplayNameLocalizationId: GAMEPLAY_MapleSyrup
+  DescriptionLocalizatonId: GAMEPLAY_MapleSyrupDescription
   InventoryActionLocalizationId: 
-  PickUpAudio: Play_SndInvCanLarge
+  PickUpAudio: Play_SndInvBottlePlastic
   StowAudio: Play_InventoryStow
-  PutBackAudio: Play_SndInvCanLarge
+  PutBackAudio: Play_SndInvBottlePlastic
   WornOutAudio: 
-  WeightKG: 0.4
+  WeightKG: 1
   MaxHP: 100
   DaysToDecay: 0
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
-  InspectAngles: {x: -20, y: 300, z: -20}
-  InspectOffset: {x: 0, y: -0.05, z: 0}
+  InspectAngles: {x: -10, y: -50, z: -20}
+  InspectOffset: {x: 0, y: -0.1, z: 0}
   Cooking: 0
   CookingMinutes: 1
   CookingWaterRequired: 0
   CookingUnitsRequired: 1
   CookingAudio: 
   CookingResult: {fileID: 0}
-  DaysToDecayOutdoors: 730
-  DaysToDecayIndoors: 365
-  Calories: 450
-  Servings: 1
+  DaysToDecayOutdoors: 0
+  DaysToDecayIndoors: 0
+  Calories: 3600
+  Servings: 30
   EatingTime: 3
-  EatingAudio: Play_EatingSoft
-  EatingPackagedAudio: Play_EatingCanned
-  ThirstEffect: 5
+  EatingAudio: Play_OpenPeanutButter
+  EatingPackagedAudio: 
+  ThirstEffect: -10
   FoodPoisoning: 0
-  FoodPoisoningLowCondition: 30
+  FoodPoisoningLowCondition: 0
   ParasiteRiskIncrements: []
   Natural: 0
   Raw: 0
@@ -148,15 +148,15 @@ MonoBehaviour:
   Meat: 0
   Fish: 0
   Canned: 0
-  Opening: 1
-  OpeningWithCanOpener: 1
-  OpeningWithKnife: 1
-  OpeningWithHatchet: 1
-  OpeningWithSmashing: 1
+  Opening: 0
+  OpeningWithCanOpener: 0
+  OpeningWithKnife: 0
+  OpeningWithHatchet: 0
+  OpeningWithSmashing: 0
   AffectRest: 0
   InstantRestChange: 0
-  RestFactor: 0
-  RestFactorMinutes: 0
+  RestFactor: 1
+  RestFactorMinutes: 60
   AffectCold: 0
   InstantColdChange: 20
   ColdFactor: 0.5
