@@ -111,6 +111,7 @@ MonoBehaviour:
   Radial: 0
   DisplayNameLocalizationId: GAMEPLAY_Cornflakes
   DescriptionLocalizatonId: GAMEPLAY_CornflakesDescription
+  InventoryCategory: 0
   InventoryActionLocalizationId: 
   PickUpAudio: Play_SndInvBoxCrackers
   StowAudio: Play_InventoryStow
@@ -119,17 +120,21 @@ MonoBehaviour:
   WeightKG: 0.4
   MaxHP: 100
   DaysToDecay: 0
+  InitialCondition: 0
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: -5, y: 200, z: 0}
   InspectOffset: {x: 0, y: -0.15, z: 0}
   Cooking: 0
+  type: 0
   CookingMinutes: 1
+  BurntMinutes: 1
   CookingWaterRequired: 0
   CookingUnitsRequired: 1
-  CookingAudio: 
   CookingResult: {fileID: 0}
+  CookingAudio: 
+  StartCookingAudio: 
   DaysToDecayOutdoors: 100
   DaysToDecayIndoors: 1000
   Calories: 1400
