@@ -18,6 +18,14 @@
 					"url": "https://github.com/WulfMarius/Food-Pack/releases/download/2.0.0-main/Food-Pack-V2.0.0.zip"
 				}
 			]
+		}, {
+			"version": "2.1.0",
+			"dependencies": [
+				{
+					"name": "ModComponent",
+					"version": "^2.2.0"
+				}
+			]
 		}
 	]
 }
