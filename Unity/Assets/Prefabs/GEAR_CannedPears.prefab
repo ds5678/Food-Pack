@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1788177173056840}
+  m_IsPrefabAsset: 1
+--- !u!1 &1788177173056840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4436997529597348}
+  - component: {fileID: 33836467316523528}
+  - component: {fileID: 23316849893760460}
+  - component: {fileID: 65982937765619776}
+  - component: {fileID: 114283838763559322}
+  m_Layer: 17
+  m_Name: GEAR_CannedPears
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4436997529597348
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788177173056840}
+  m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23316849893760460
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788177173056840}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: fc41e92885bd68041b70e2e60ab8e58f, type: 2}
+  - {fileID: 2100000, guid: c98e34d28b98d29488471180a98e9e5c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33836467316523528
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788177173056840}
+  m_Mesh: {fileID: 4300000, guid: f8cf018828f42024ab8f85e560f96989, type: 3}
+--- !u!65 &65982937765619776
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788177173056840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.145, y: 0.174, z: 0.145}
+  m_Center: {x: 0, y: 0.086915, z: 0}
+--- !u!114 &114283838763559322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788177173056840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConsoleName: 
+  Radial: 0
+  DisplayNameLocalizationId: GAMEPLAY_CannedPears
+  DescriptionLocalizatonId: GAMEPLAY_CannedPearsDescription
+  InventoryCategory: 0
+  InventoryActionLocalizationId: 
+  PickUpAudio: Play_SndInvCanLarge
+  StowAudio: Play_InventoryStow
+  PutBackAudio: Play_SndInvCanLarge
+  WornOutAudio: 
+  WeightKG: 0.8
+  MaxHP: 100
+  DaysToDecay: 0
+  InitialCondition: 0
+  InspectOnPickup: 1
+  InspectDistance: 0.4
+  InspectScale: {x: 1, y: 1, z: 1}
+  InspectAngles: {x: 20, y: 120, z: 20}
+  InspectOffset: {x: 0, y: -0.05, z: 0}
+  InspectModel: {fileID: 0}
+  NormalModel: {fileID: 0}
+  Cooking: 1
+  type: 1
+  CookingMinutes: 25
+  BurntMinutes: 30
+  CookingWaterRequired: 0
+  CookingUnitsRequired: 1
+  CookingResult: {fileID: 0}
+  CookingAudio: 
+  StartCookingAudio: 
+  DaysToDecayOutdoors: 730
+  DaysToDecayIndoors: 365
+  Calories: 540
+  Servings: 1
+  EatingTime: 3
+  EatingAudio: Play_EatingSoft
+  EatingPackagedAudio: Play_EatingCanned
+  ThirstEffect: 10
+  FoodPoisoning: 0
+  FoodPoisoningLowCondition: 20
+  ParasiteRiskIncrements: []
+  Natural: 0
+  Raw: 0
+  Drink: 0
+  Meat: 0
+  Fish: 0
+  Canned: 1
+  Opening: 1
+  OpeningWithCanOpener: 1
+  OpeningWithKnife: 1
+  OpeningWithHatchet: 1
+  OpeningWithSmashing: 1
+  AffectCondition: 0
+  ConditionRestBonus: 2
+  ConditionRestMinutes: 360
+  AffectRest: 0
+  InstantRestChange: 0
+  RestFactor: 0
+  RestFactorMinutes: 0
+  AffectCold: 1
+  InstantColdChange: 20
+  ColdFactor: 0.5
+  ColdFactorMinutes: 60
+  ContainsAlcohol: 0
+  AlcoholPercentage: 0
+  AlcoholUptakeMinutes: 45

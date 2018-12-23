@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1264402637735074}
+  m_IsPrefabAsset: 1
+--- !u!1 &1264402637735074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4830484126838556}
+  - component: {fileID: 33621983491012932}
+  - component: {fileID: 23038068199225770}
+  - component: {fileID: 65484766702577904}
+  - component: {fileID: 114208529545352118}
+  m_Layer: 0
+  m_Name: GEAR_CannedChili
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830484126838556
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264402637735074}
+  m_LocalRotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23038068199225770
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264402637735074}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: d952f992cd63eea45a35c23c9e259c80, type: 2}
+  - {fileID: 2100000, guid: c98e34d28b98d29488471180a98e9e5c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33621983491012932
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264402637735074}
+  m_Mesh: {fileID: 4300000, guid: 247f6258f67499e4eaf8301cf25f0a01, type: 3}
+--- !u!65 &65484766702577904
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264402637735074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.110902, y: 0.159263, z: 0.105496}
+  m_Center: {x: 0, y: 0.07955351, z: 0}
+--- !u!114 &114208529545352118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264402637735074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1682574900, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConsoleName: 
+  Radial: 0
+  DisplayNameLocalizationId: GAMEPLAY_CannedChili
+  DescriptionLocalizatonId: GAMEPLAY_CannedChiliDescription
+  InventoryCategory: 0
+  InventoryActionLocalizationId: 
+  PickUpAudio: Play_SndInvCanLarge
+  StowAudio: Play_InventoryStow
+  PutBackAudio: Play_SndInvCanLarge
+  WornOutAudio: 
+  WeightKG: 0.4
+  MaxHP: 100
+  DaysToDecay: 0
+  InitialCondition: 0
+  InspectOnPickup: 1
+  InspectDistance: 0.4
+  InspectScale: {x: 1, y: 1, z: 1}
+  InspectAngles: {x: 20, y: 120, z: 20}
+  InspectOffset: {x: 0, y: -0.05, z: 0}
+  InspectModel: {fileID: 0}
+  NormalModel: {fileID: 0}
+  Cooking: 1
+  type: 1
+  CookingMinutes: 25
+  BurntMinutes: 30
+  CookingWaterRequired: 0
+  CookingUnitsRequired: 1
+  CookingResult: {fileID: 0}
+  CookingAudio: 
+  StartCookingAudio: 
+  DaysToDecayOutdoors: 730
+  DaysToDecayIndoors: 365
+  Calories: 450
+  Servings: 1
+  EatingTime: 3
+  EatingAudio: Play_EatingSoft
+  EatingPackagedAudio: Play_EatingSoftCanned
+  ThirstEffect: -10
+  FoodPoisoning: 0
+  FoodPoisoningLowCondition: 5
+  ParasiteRiskIncrements: []
+  Natural: 0
+  Raw: 0
+  Drink: 0
+  Meat: 0
+  Fish: 0
+  Canned: 1
+  Opening: 1
+  OpeningWithCanOpener: 1
+  OpeningWithKnife: 1
+  OpeningWithHatchet: 1
+  OpeningWithSmashing: 1
+  AffectCondition: 0
+  ConditionRestBonus: 2
+  ConditionRestMinutes: 360
+  AffectRest: 0
+  InstantRestChange: 0
+  RestFactor: 1
+  RestFactorMinutes: 60
+  AffectCold: 1
+  InstantColdChange: 20
+  ColdFactor: 0.4
+  ColdFactorMinutes: 90
+  ContainsAlcohol: 0
+  AlcoholPercentage: 0
+  AlcoholUptakeMinutes: 45
