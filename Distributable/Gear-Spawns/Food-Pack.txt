@@ -122,6 +122,7 @@ item=CannedChili w=1
 item=CannedSpaghetti w=1
 item=CannedStew w=1
 item=CatFood w=2
+item=BeerBottle w=2
 item=WhiskyFlask w=1
 
 
@@ -139,15 +140,17 @@ item=CannedStew w=5
 item=CatFood w=5
 item=Cornflakes w=10
 item=HoneyJar w=2
-item=MapleSyrup w=2
+item=ModSyrup w=2
 item=RiceRaw w=5
 item=SPAM w=2
+item=HotCocoaBox w=10
 
 
 #---------------
 loottable=Locker
 #---------------
 item=CatFood w=3
+item=BeerBottle w=1
 
 
 #-----------------
@@ -172,7 +175,4 @@ item=RiceRaw w=2
 loottable=Wardrobe_regular
 #-------------------------
 item=BeerBottle w=2
-item=CannedPineapples w=3
-item=CannedPears w=2
-item=CannedMangos w=1
 item=WhiskyFlask w=1
