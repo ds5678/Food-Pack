@@ -23,6 +23,4 @@ I know many people might skip over this, but I hope you don't. You are so specia
 4. If you haven't done so already, move `ModComponentAPI.dll`, `ModComponentMapper.dll`, and `AssetLoader.dll` into the Mods folder in your TLD install directory
 5. Run The Long Dark once. It should generate some subfolders in your mods folder.
 6. Download `Food-Pack.zip` from the [releases page](https://github.com/ds5678/Food-Pack/releases)
-7. Extract its contents. Doesn't matter where.
-8. Move `Food-Pack_Automapped` into the `auto-mapped` folder within your mods folder.
-9. Move `Food-Pack.txt` into the `gear-spawns` folder within your mods folder.
+7. Move `Food-Pack.zip` into the `ModComponentZips` folder within your mods folder. Do not extract it!

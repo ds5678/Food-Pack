@@ -174,5 +174,17 @@
     },
     "GAMEPLAY_HotCocoaCupDescription" : {
                             "English" : "A delicious cup of your favorite hot cocoa."
+    },
+    "GAMEPLAY_HotCocoaBag" : {
+                            "English" : "Hot Cocoa Packet"
+    },
+    "GAMEPLAY_HotCocoaBagDescription" : {
+                            "English" : "A packet for making Hot Cocoa."
+    },
+    "GAMEPLAY_Cookies" : {
+                            "English" : "Cookies"
+    },
+    "GAMEPLAY_CookiesDescription" : {
+                            "English" : "A little stale, but they still taste good."
     }
 }
