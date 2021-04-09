@@ -1,1 +1,5 @@
 .vs
+obj
+Library
+Temp
+Logs
