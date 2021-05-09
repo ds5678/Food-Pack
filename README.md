@@ -37,7 +37,7 @@ If you send me your translations, I'll update and add them to the mod so that mo
 
 ## 4.4 Additions
 
-![Additions](Images/showcase-all.png)
+![Additions](Images/additions.png)
 
 ## Contributions
 
