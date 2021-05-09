@@ -3,7 +3,7 @@
 
 This is a mod for **The Long Dark** by Hinterland Studio, Inc.
 
-![Food Items](Images/showcase-all.jpg)
+![Food Items](Images/showcase-all.png)
 
 Please see the [wiki](https://github.com/ds5678/Food-Pack/wiki) for details.
 
@@ -34,6 +34,10 @@ If you send me your translations, I'll update and add them to the mod so that mo
 5. Run The Long Dark once. It should generate a subfolder in your mods folder.
 6. Download `Food-Pack.modcomponent` from the [releases page](https://github.com/ds5678/Food-Pack/releases)
 7. Move `Food-Pack.modcomponent` into the `ModComponentZips` folder within your mods folder.
+
+## 4.4 Additions
+
+![Additions](Images/showcase-all.png)
 
 ## Contributions
 
