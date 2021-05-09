@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33478625043990084}
   - component: {fileID: 23745481061869444}
   - component: {fileID: 65426123558276128}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_ModSyrup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674397944879078}
   m_LocalRotation: {x: 0.00000031987892, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.448, y: 0, z: -0.3168}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

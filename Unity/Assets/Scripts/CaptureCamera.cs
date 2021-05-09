@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.IO;
 
 public class CaptureCamera : MonoBehaviour
 {
     [SerializeField]
     Camera cam;
-    [SerializeField] string fileName = "screenshot";
-    RenderTexture renderTexture;
+	[SerializeField] string fileDirectory = @"C:\Users\owner\source\repos";
+	[SerializeField] string fileName = "ico_GearItem__";
+	RenderTexture renderTexture;
     [SerializeField]
-    Vector2 targetSize;
+    Vector2 targetSize = new Vector2(512,512);
     Texture2D lastPicture;
     void Start()
     {
@@ -31,10 +32,11 @@ public class CaptureCamera : MonoBehaviour
         }
     }
     void OnGUI()
-    {
-        fileName = GUILayout.TextField(fileName, GUILayout.Width(500));
-        cam.Render();
-        if (GUILayout.Button("Capture"))
+	{
+		cam.Render();
+		GUI.Box(new Rect(0, 0, targetSize.x, targetSize.y), cam.targetTexture);
+		fileName = GUILayout.TextField(fileName, GUILayout.Width(500));
+		if (GUILayout.Button("Capture"))
         {
             RenderTexture.active = renderTexture;
 
@@ -45,12 +47,10 @@ public class CaptureCamera : MonoBehaviour
 
             byte[] bytes;
             bytes = texture.EncodeToPNG();
-
-            System.IO.File.WriteAllBytes(fileName + ".png", bytes);
-            Debug.Log(Application.persistentDataPath + "/" + fileName + ".png");
+			string filePath = Path.Combine(fileDirectory, fileName);
+            System.IO.File.WriteAllBytes(filePath + ".png", bytes);
+            Debug.Log(filePath + ".png");
             lastPicture = texture;
-        }
-
-        GUILayout.Box(cam.targetTexture, GUILayout.Width(targetSize.x), GUILayout.Height(targetSize.y));
-    }
+		}
+	}
 }

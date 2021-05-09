@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5395229258616367119}
   - component: {fileID: 6144842856530666137}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_Cookies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 3337249325644573293}
   - component: {fileID: 4919302043559688001}
   - component: {fileID: 978016798435158341}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: "\u0421ookies"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

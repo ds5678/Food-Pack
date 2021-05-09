@@ -9,8 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7092605668650761341}
-  - component: {fileID: 9217608720064941870}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_HotCocoaBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,19 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &9217608720064941870
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2678301170297210791}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.10397971, y: 0.023184866, z: 0.16824767}
-  m_Center: {x: 0.00026091933, y: 0.012132809, z: 0.000000044703484}
 --- !u!1 &3682212139422818340
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,7 +42,8 @@ GameObject:
   - component: {fileID: 6816101334783047183}
   - component: {fileID: 101431393213753305}
   - component: {fileID: 8223619302941132074}
-  m_Layer: 0
+  - component: {fileID: 2032305731289353332}
+  m_Layer: 17
   m_Name: CocoaBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,3 +111,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2032305731289353332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3682212139422818340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05225038, y: 0.010897762, z: 0.08421684}
+  m_Center: {x: -0.000000004656613, y: 0.006000616, z: 0}

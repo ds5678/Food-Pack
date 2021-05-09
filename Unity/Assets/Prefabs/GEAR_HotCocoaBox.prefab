@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5967655127987120057}
   - component: {fileID: 3110878108034044199}
   - component: {fileID: 6785238828412358136}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,10 +58,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5004044949739458277, guid: 200ba39803494154c8e355cc4694d4b2, type: 3}
-  - {fileID: 4006008569162626988, guid: 200ba39803494154c8e355cc4694d4b2, type: 3}
-  - {fileID: -736938290813285100, guid: 200ba39803494154c8e355cc4694d4b2, type: 3}
-  - {fileID: -8932566056945677694, guid: 200ba39803494154c8e355cc4694d4b2, type: 3}
+  - {fileID: 2100000, guid: 2260e42176891434094113a6943531fa, type: 2}
+  - {fileID: 2100000, guid: f32282e88d9443d42bcbd8918cf9cb29, type: 2}
+  - {fileID: 2100000, guid: 5ee08d46f82d89e458fa2dc44f0462e5, type: 2}
+  - {fileID: 2100000, guid: f32282e88d9443d42bcbd8918cf9cb29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7395183449600490716}
   - component: {fileID: 7920468926070826593}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_HotCocoaBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

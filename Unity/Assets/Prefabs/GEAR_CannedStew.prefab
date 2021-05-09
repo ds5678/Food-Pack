@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33091402159227724}
   - component: {fileID: 23984906374440880}
   - component: {fileID: 65802927247899558}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_CannedStew
   m_TagString: Untagged
   m_Icon: {fileID: 0}

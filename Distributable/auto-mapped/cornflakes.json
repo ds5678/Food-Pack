@@ -36,8 +36,8 @@
                             "Calories" : 1400,
                             "Servings" : 4,
                             "EatingTime" : 8,
-                            "EatingAudio" : "Play_SndEatCornflakes",
-                            "EatingPackagedAudio" : "Play_SndEatCornflakes",
+                            "EatingAudio" : "Play_OpenCrackers",
+                            "EatingPackagedAudio" : "Play_OpenCrackers",
                             "ThirstEffect" : -25,
 
                             "FoodPoisoning" : 0,

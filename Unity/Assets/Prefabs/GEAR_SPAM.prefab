@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33111140891420752}
   - component: {fileID: 23667671368027444}
   - component: {fileID: 65833439725147380}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_SPAM
   m_TagString: Untagged
   m_Icon: {fileID: 0}

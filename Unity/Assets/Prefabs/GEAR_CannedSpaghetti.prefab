@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33647265563100908}
   - component: {fileID: 23802622529740710}
   - component: {fileID: 65573468936514284}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_CannedSpaghetti
   m_TagString: Untagged
   m_Icon: {fileID: 0}

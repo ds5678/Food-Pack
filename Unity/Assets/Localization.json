@@ -3,231 +3,370 @@
                             "English" : "Energy Drink",
                             "German" : "Energy Drink",
                             "Russian" : "Энергетический напиток",
-                            "Polish" : "Napój energetyczny"
+                            "Polish" : "Napój energetyczny",
+                            "French (France)" : "Boisson énergisante"
     },
     "GAMEPLAY_AuroraEnergyDrinkDescription" : {
                             "English" : "Might keep you awake for a few more hours, but this won't make you fly.",
                             "German" : "Hält dich vielleicht für ein paar Stunden wach, aber wird dich nicht fliegen lassen.",
                             "Russian" : "Возможно, вы не заснете еще несколько часов, но он не заставит вас летать.",
-                            "Polish" : "Może pomóc Ci zachować przytomność na parę godzin, ale nie doda Ci skrzydeł."
-    },
-    "GAMEPLAY_Cornflakes" : {
-                            "English" : "Cornflakes",
-                            "German" : "Cornflakes",
-                            "Russian" : "Кукурузные хлопья",
-                            "Polish" : "Płatki kukurydziane"
-    },
-    "GAMEPLAY_CornflakesDescription" : {
-                            "English" : "A big box of crispy cornflakes. Very dry.",
-                            "German" : "Eine große Packung Cornflakes. Sehr trocken.",
-                            "Russian" : "Популярный, но отнюдь не идеальный готовый продукт, используемый для завтраков и перекусов.",
-                            "Polish" : "Pudełko płatków kukurydzianych. Bardzo suche."
+                            "Polish" : "Może pomóc Ci zachować przytomność na parę godzin, ale nie doda Ci skrzydeł.",
+                            "French (France)" : "Ça peut vous tenir éveillé quelques heures de plus, mais ça ne vous donnera pas des ailes."
     },
     "GAMEPLAY_BeerBottle" : {
                             "English" : "Beer",
                             "German" : "Bier",
                             "Russian" : "Пиво",
-                            "Polish" : "Piwo"
+                            "Polish" : "Piwo",
+                            "French (France)" : "Bière"
     },
     "GAMEPLAY_BeerBottleDescription" : {
                             "English" : "A nice bottle of beer.\nHave a cold one!\n\nAlcohol 5% vol",
                             "German" : "Eine schöne Flasche Bier.\nGönn' Dir ein kühles Blondes!\n\nAlkohol 5% vol",
                             "Russian" : "Хорошая бутылка пива.\n\nСодержание алкоголя 5%",
-                            "Polish" : "Butelka piwa.\nSpożywaj schłodzone!\n\nAlkohol5%"
+                            "Polish" : "Butelka piwa.\nSpożywaj schłodzone!\n\nAlkohol5%",
+                            "French (France)" : "Une bonne bouteille de bière.\nBuvez-en une fraîche ! \n\nAlcool 5% vol."
+    },
+    "GAMEPLAY_Bread" : {
+                            "English" : "Bread"
+    },
+    "GAMEPLAY_BreadDescription" : {
+                            "English" : "A loaf of generic white bread."
+    },
+    "GAMEPLAY_CannedChili" : {
+                            "English" : "Chili",
+                            "German" : "Chili",
+                            "Russian" : "Банка Чили",
+                            "Polish" : "Chili",
+                            "French (France)" : "Chili"
+    },
+    "GAMEPLAY_CannedChiliDescription" : {
+                            "English" : "Hearty. Warming. Soul soothing. Chili!",
+                            "German" : "Deftig. Wärmend. Balsam für die Seele. Chili!",
+                            "Russian" : "Перекус для любителей поострее.",
+                            "Polish" : "Krzepi. Rozgrzewa. Karmi duszę. Chili!",
+                            "French (France)" : "Cordial. Réchauffant. Apaisant. Du chili !"
+    },
+    "GAMEPLAY_CannedMangos" : {
+                            "English" : "Diced Mangos",
+                            "German" : "Mangostücke",
+                            "Russian" : "Манго",
+                            "Polish" : "Krojone mango",
+                            "French (France)" : "Mangues en dés"
+    },
+    "GAMEPLAY_CannedMangosDescription" : {
+                            "English" : "Delicious and sweet.",
+                            "German" : "Köstlich und süß.",
+                            "Russian" : "Кусочки ананаса высокого качества.",
+                            "Polish" : "Pyszne i słodkie",
+                            "French (France)" : "Délicieux et sucré."
+    },
+    "GAMEPLAY_CannedPears" : {
+                            "English" : "Pear Halves",
+                            "German" : "Birnenhälften",
+                            "Russian" : "Груши половинки",
+                            "Polish" : "Połówki brzoskwini",
+                            "French (France)" : "Demi-poires"
+    },
+    "GAMEPLAY_CannedPearsDescription" : {
+                            "English" : "Delicious and sweet.",
+                            "German" : "Köstlich und süß.",
+                            "Russian" : "Кусочки ананаса высокого качества.",
+                            "Polish" : "Pyszne i słodkie",
+                            "French (France)" : "Délicieux et sucré."
+    },
+    "GAMEPLAY_CannedPineapples" : {
+                            "English" : "Pineapple Slices",
+                            "German" : "Ananasscheiben",
+                            "Russian" : "Ломтики ананаса",
+                            "Polish" : "Krojony ananas",
+                            "French (France)" : "Tranches d'ananas"
+    },
+    "GAMEPLAY_CannedPineapplesDescription" : {
+                            "English" : "Delicious and sweet.",
+                            "German" : "Köstlich und süß.",
+                            "Russian" : "Кусочки ананаса высокого качества.",
+                            "Polish" : "Pyszny i słodki",
+                            "French (France)" : "Délicieux et sucré."
+    },
+    "GAMEPLAY_CannedSpaghetti" : {
+                            "English" : "Spaghetti with Meatballs",
+                            "German" : "Spaghetti mit Fleischbällchen",
+                            "Russian" : "Спагетти с фрикадельками",
+                            "Polish" : "Spaghetti z klopsikami",
+                            "French (France)" : "Spaghetti aux boulettes de viande"
+    },
+    "GAMEPLAY_CannedSpaghettiDescription" : {
+                            "English" : "Feed your inner child!",
+                            "German" : "Für das Kind in dir!",
+                            "Russian" : "Накормите своего внутреннего ребенка!",
+                            "Polish" : "Nakarm swoje wewnętrzne dziecko!",
+                            "French (France)" : "Retournez en enfance !"
+    },
+    "GAMEPLAY_CannedStew" : {
+                            "English" : "Beef Stew",
+                            "German" : "Rindfleischeintopf",
+                            "Russian" : "Тушеная говядина",
+                            "Polish" : "Gulasz wołowy",
+                            "French (France)" : "Ragoût de bœuf"
+    },
+    "GAMEPLAY_CannedStewDescription" : {
+                            "English" : "A hearty meal with meat and vegetables. Good enough to forget about everything else for little while.",
+                            "German" : "Ein anständiges Essen mit Fleisch und Gemüse. Gut genug um alles andere für einen kurzen Moment zu vergessen.",
+                            "Russian" : "Сытный обед с мясом и овощами.",
+                            "Polish" : "Krzepiący posiłek z mięsem i warzywami. Wystarczy, by na chwilé zapomnieć o wszystkim innym.",
+                            "French (France)" : "Un repas copieux avec de la viande et des légumes. Assez bon pour oublier tout le reste pendant un petit moment."
     },
     "GAMEPLAY_CatFood" : {
                             "English" : "Cat Food",
                             "German" : "Katzenfutter",
                             "Russian" : "Кошачий корм",
-                            "Polish" : "Karma dla kota"
+                            "Polish" : "Karma dla kota",
+                            "French (France)" : "Nourriture pour chat"
                             
     },
     "GAMEPLAY_CatFoodDescription" : {
                             "English" : "A can of cat food.\nSmells terrible and will probably taste even worse.",
                             "German" : "Eine Dose Katzenfutter.\nRiecht furchtbar und wird sicherlich noch viel schlechter schmecken.",
                             "Russian" : "Банка кошачьей еды.\nПахнет ужасно, вероятно, вкус еще хуже.",
-                            "Polish" : "Puszka kociej karmy.\nOkropnie śmierdzi, pewnie smakuje jeszcze gorzej."
+                            "Polish" : "Puszka kociej karmy.\nOkropnie śmierdzi, pewnie smakuje jeszcze gorzej.",
+                            "French (France)" : "Une boîte de nourriture pour chat.\nÇa sent mauvais et ça aura probablement un goût encore pire."
     },
-    "GAMEPLAY_WhiskyFlask" : {
-                            "English" : "Hip Flask",
-                            "German" : "Flachmann",
-                            "Russian" : "Фляжка",
-                            "Polish" : "Piersiówka"
+    "GAMEPLAY_CerealDescription" : {
+                            "English" : "A big box of cereal. Very dry."
     },
-    "GAMEPLAY_WhiskyFlaskDescription" : {
-                            "English" : "Smells like Whisky.\nMaybe one small sip against the cold fingers...",
-                            "German" : "Riecht wie Whisky.\nVielleicht ein kleines Schlückchen gegen die kalten Finger...",
-                            "Russian" : "Пахнет как виски.\nМожет быть, один маленький глоток поможет согреться ...",
-                            "Polish" : "Pachnie jak whisky.\nMoże mały łyczek by ogrzać zmrożone palce..."
+    "GAMEPLAY_CerealHoney" : {
+                            "English" : "Honabee Breakfast Cereal"
     },
-    "GAMEPLAY_CannedPineapples" : {
-                            "English" : "Pineapple Slices",
-                            "German" : "Ananasscheiben",
-                            "Russian" : "Ломтики ананаса",
-                            "Polish" : "Krojony ananas"
+    "GAMEPLAY_CerealWholeGrain" : {
+                            "English" : "Whole Grain Cereal"
     },
-    "GAMEPLAY_CannedPineapplesDescription" : {
-                            "English" : "Delicious and sweet.",
-                            "German" : "Köstlich und süß.",
-                            "Russian" : "Кусочки ананаса высокого качества.",
-                            "Polish" : "Pyszny i słodki"
+    "GAMEPLAY_Cookies" : {
+                            "English" : "Cookies",
+                            "Polish" : "Ciastka",
+                            "French (France)" : "Cookies"
     },
-    "GAMEPLAY_CannedPears" : {
-                            "English" : "Pear Halves",
-                            "German" : "Birnenhälften",
-                            "Russian" : "Груши половинки",
-                            "Polish" : "Połówki brzoskwini"
+    "GAMEPLAY_CookiesDescription" : {
+                            "English" : "A little stale, but they still taste good.",
+                            "Polish" : "Odrobinę zwietrzałe, ale nadal nieźle smakują.",
+                            "French (France)" : "Un peu rassis, mais ils ont toujours bon goût."
     },
-    "GAMEPLAY_CannedPearsDescription" : {
-                            "English" : "Delicious and sweet.",
-                            "German" : "Köstlich und süß.",
-                            "Russian" : "Кусочки ананаса высокого качества.",
-                            "Polish" : "Pyszne i słodkie"
+    "GAMEPLAY_Cornflakes" : {
+                            "English" : "Cornflakes",
+                            "German" : "Cornflakes",
+                            "Russian" : "Кукурузные хлопья",
+                            "Polish" : "Płatki kukurydziane",
+                            "French (France)" : "Cornflakes"
     },
-    "GAMEPLAY_CannedMangos" : {
-                            "English" : "Diced Mangos",
-                            "German" : "Mangostücke",
-                            "Russian" : "Манго",
-                            "Polish" : "Krojone mango"
+    "GAMEPLAY_CornflakesDescription" : {
+                            "English" : "A big box of crispy cornflakes. Very dry.",
+                            "German" : "Eine große Packung Cornflakes. Sehr trocken.",
+                            "Russian" : "Популярный, но отнюдь не идеальный готовый продукт, используемый для завтраков и перекусов.",
+                            "Polish" : "Pudełko płatków kukurydzianych. Bardzo suche.",
+                            "French (France)" : "Une grosse boîte de cornflakes croustillants. Très sec."
     },
-    "GAMEPLAY_CannedMangosDescription" : {
-                            "English" : "Delicious and sweet.",
-                            "German" : "Köstlich und süß.",
-                            "Russian" : "Кусочки ананаса высокого качества.",
-                            "Polish" : "Pyszne i słodkie"
+    "GAMEPLAY_CupMilk" : {
+                            "English" : "Cup of Rehydrated Milk"
     },
-    "GAMEPLAY_RiceRaw" : {
-                            "English" : "Long-Grain Rice (Raw)",
-                            "German" : "Langkornreis (Roh)",
-                            "Russian" : "Рис длиннозерный (Сырой)",
-                            "Polish" : "Ryż długoziarnisty"
+    "GAMEPLAY_CupMilkDescription" : {
+                            "English" : "Well, it tastes better than boiled water."
     },
-    "GAMEPLAY_RiceRawDescription" : {
-                            "English" : "One of the most widely consumed staple foods in the world.\nNeeds to be cooked before it can be eaten: one part rice and two parts water.",
-                            "German" : "Eines der meistkonsumierten Grundnahrungsmittel der Welt.\nMuss gekocht werden, bevor er gegessen werden kann: ein Teil Reis und zwei Teile Wasser.",
-                            "Russian" : "Один из наиболее широко потребляемых продуктов питания в мире.\nНеобходимо приготовить перед едой.",
-                            "Polish" : "Jeden z najczęściej spożywanych pokarmów na świecie.\nNależy go ugotować przed jedzeniem:szklanka ryżu i dwie szklanki wody."
+    "GAMEPLAY_DryMilkPacket" : {
+                            "English" : "Dry Milk Packet"
     },
-    "GAMEPLAY_RiceCooked" : {
-                            "English" : "Long-Grain Rice (Cooked)",
-                            "German" : "Langkornreis (Gegart)",
-                            "Russian" : "Рис длиннозерный (Приготовленный)",
-                            "Polish" : "Ryż długoziarnisty (gotowany)"
+    "GAMEPLAY_DryMilkPacketDescription" : {
+                            "English" : "A packet of dried milk powder."
     },
-    "GAMEPLAY_RiceCookedDescription" : {
-                            "English" : "Pure cooked white rice is rather dull, but provides good calories.",
-                            "German" : "Reiner gekochter Langkornreis ist ziemlich langweilig, aber liefert wertvolle Kalorien.",
-                            "Russian" : "Приготовленный белый рис, отлично утоляет голод.",
-                            "Polish" : "Sam gotowany ryż jest raczej nudny, ale dostarcza wielu kalorii."
+    "GAMEPLAY_ForsakenSpirits" : {
+                            "English" : "Forsaken Spirits"
     },
-    "GAMEPLAY_CannedChili" : {
-                            "English" : "Chili",
-                            "German" : "Chili",
-                            "Russian" : "Банка Чили",
-                            "Polish" : "Chili"
-    },
-    "GAMEPLAY_CannedChiliDescription" : {
-                            "English" : "Hearty. Warming. Soul soothing. Chili!",
-                            "German" : "Deftig. Wärmend. Balsam für die Seele. Chili!",
-                            "Russian" : "Перекус для любителей поострее.",
-                            "Polish" : "Krzepi. Rozgrzewa. Karmi duszę. Chili!"
-    },
-    "GAMEPLAY_CannedStew" : {
-                            "English" : "Beef Stew",
-                            "German" : "Rindfleischeintopf",
-                            "Russian" : "Тушеная говядина",
-                            "Polish" : "Gulasz wołowy"
-    },
-    "GAMEPLAY_CannedStewDescription" : {
-                            "English" : "A hearty meal with meat and vegetables. Good enough to forget about everything else for little while.",
-                            "German" : "Ein anständiges Essen mit Fleisch und Gemüse. Gut genug um alles andere für einen kurzen Moment zu vergessen.",
-                            "Russian" : "Сытный обед с мясом и овощами.",
-                            "Polish" : "Krzepiący posiłek z mięsem i warzywami. Wystarczy, by na chwilé zapomnieć o wszystkim innym."
-    },
-    "GAMEPLAY_CannedSpaghetti" : {
-                            "English" : "Spaghetti with Meatballs",
-                            "German" : "Spaghetti mit Fleischbällchen",
-                            "Russian" : "Спагетти с фрикадельками",
-                            "Polish" : "Spaghetti z klopsikami"
-    },
-    "GAMEPLAY_CannedSpaghettiDescription" : {
-                            "English" : "Feed your inner child!",
-                            "German" : "Für das Kind in dir!",
-                            "Russian" : "Накормите своего внутреннего ребенка!",
-                            "Polish" : "Nakarm swoje wewnętrzne dziecko!"
+    "GAMEPLAY_ForsakenSpiritsDescription" : {
+                            "English" : "Life is better on the edge. Contains 5% alcohol."
     },
     "GAMEPLAY_HoneyJar" : {
                             "English" : "Jar of Honey",
                             "German" : "Honigglas",
                             "Russian" : "Мёд лесной",
-                            "Polish" : "Słoik miodu"
+                            "Polish" : "Słoik miodu",
+                            "French (France)" : "Pot de miel"
     },
     "GAMEPLAY_HoneyJarDescription" : {
                             "English" : "A true lifesaver! Honey provides calories, vitamins, minerals and will never spoil!",
                             "German" : "Ein echter Lebensretter! Honig liefert Kalorien, Vitamine, Mineralien und verdirbt nicht!",
                             "Russian" : "Вкусное и очень полезное лакомство.",
-                            "Polish" : "Uratuje Ci życie. Miód dostarcza kalorii, witamin, minerałów - i nigdy się nie psuje."
+                            "Polish" : "Uratuje Ci życie. Miód dostarcza kalorii, witamin, minerałów - i nigdy się nie psuje.",
+                            "French (France)" : "Il peut vous sauver la vie ! Le miel fournit des calories, des vitamines, des minéraux et ne se périme jamais !"
+    },
+    "GAMEPLAY_HotCocoaBag" : {
+                            "English" : "Hot Cocoa Packet",
+                            "Polish" : "Saszetka kakao",
+                            "French (France)" : "Sachet de chocolat en poudre."
+    },
+    "GAMEPLAY_HotCocoaBagDescription" : {
+                            "English" : "A packet for making Hot Cocoa.",
+                            "Polish" : "Saszetka kakao, gotowa do zalania.",
+                            "French (France)" : "Un sachet pour faire du chocolat chaud."
+    },
+    "GAMEPLAY_HotCocoaBox" : {
+                            "English" : "Hot Cocoa Box",
+                            "Polish" : "Pudełko kakao",
+                            "French (France)" : "Boite de chocolat en poudre"
+    },
+    "GAMEPLAY_HotCocoaBoxDescription" : {
+                            "English" : "A box of packets for making Hot Cocoa.",
+                            "Polish" : "Pudełko pełne saszetek kakao",
+                            "French (France)" : "Une boîte de sachets pour faire du chocolat chaud."
+    },
+    "GAMEPLAY_HotCocoaBoxStackSingle" : {
+                            "English" : "Hot Cocoa Packet",
+                            "Polish" : "Saszetka kakao",
+                            "French (France)" : "Sachet de chocolat en poudre."
+    },
+    "GAMEPLAY_HotCocoaBoxStackMultiple" : {
+                            "English" : "Hot Cocoa Packets",
+                            "Polish" : "Saszetki kakao",
+                            "French (France)" : "Sachets de chocolat en poudre."
+    },
+    "GAMEPLAY_HotCocoaCup" : {
+                            "English" : "Cup of Hot Cocoa",
+                            "Polish" : "Kubek kakao",
+                            "French (France)" : "Tasse de chocolat chaud."
+    },
+    "GAMEPLAY_HotCocoaCupDescription" : {
+                            "English" : "A delicious cup of your favorite hot cocoa.",
+                            "Polish" : "Kubek przepysznego kakao, Twój ulubiony rodzaj.",
+                            "French (France)" : "Une délicieuse tasse de votre chocolat chaud préféré."
+    },
+    "GAMEPLAY_ModChocolateBar" : {
+                            "English" : "Dark Chocolate Bar"
+    },
+    "GAMEPLAY_ModChocolateBarDescription" : {
+                            "English" : "Dark and full of caffeine. Gives a little boost when you're tired."
+    },
+    "GAMEPLAY_ModSyrup" : {
+                            "English" : "Maple Syrup",
+                            "German" : "Ahornsirup",
+                            "Polish" : "Syrop klonowy",
+                            "French (France)" : "Sirop d'érable"
+    },
+    "GAMEPLAY_ModSyrupDescription" : {
+                            "English" : "Delicious maple syrup. There had to be some around here!\nMaple syrup will never spoil!",
+                            "German" : "Köstliches Ahornsirup. Das musste es hier einfach geben.\n Ahornsirup wird niemals schlecht!",
+                            "Polish" : "Pyszny syrop klonowu. Musi być go więcej./nSyrop klonowy nigdy się nie psuje!",
+                            "French (France)" : "Délicieux sirop d'érable. Il devait forcément y en avoir par ici ! \nLe sirop d'érable ne se périme jamais !"
+    },
+    "GAMEPLAY_MountainSoda" : {
+                            "English" : "Mountain Soda"
+    },
+    "GAMEPLAY_MountainSodaDescription" : {
+                            "English" : "Mountain made. Mountain fresh."
+    },
+    "GAMEPLAY_RiceCooked" : {
+                            "English" : "Long-Grain Rice (Cooked)",
+                            "German" : "Langkornreis (Gegart)",
+                            "Russian" : "Рис длиннозерный (Приготовленный)",
+                            "Polish" : "Ryż długoziarnisty (gotowany)",
+                            "French (France)" : "Riz long (Cuit)"
+    },
+    "GAMEPLAY_RiceCookedDescription" : {
+                            "English" : "Pure cooked white rice is rather dull, but provides good calories.",
+                            "German" : "Reiner gekochter Langkornreis ist ziemlich langweilig, aber liefert wertvolle Kalorien.",
+                            "Russian" : "Приготовленный белый рис, отлично утоляет голод.",
+                            "Polish" : "Sam gotowany ryż jest raczej nudny, ale dostarcza wielu kalorii.",
+                            "French (France)" : "Le riz blanc nature est plutôt fade, mais fournit beaucoup de calories."
+    },
+    "GAMEPLAY_RiceRaw" : {
+                            "English" : "Long-Grain Rice (Raw)",
+                            "German" : "Langkornreis (Roh)",
+                            "Russian" : "Рис длиннозерный (Сырой)",
+                            "Polish" : "Ryż długoziarnisty",
+                            "French (France)" : "Riz long (Cru)"
+    },
+    "GAMEPLAY_RiceRawDescription" : {
+                            "English" : "One of the most widely consumed staple foods in the world.\nNeeds to be cooked before it can be eaten: one part rice and two parts water.",
+                            "German" : "Eines der meistkonsumierten Grundnahrungsmittel der Welt.\nMuss gekocht werden, bevor er gegessen werden kann: ein Teil Reis und zwei Teile Wasser.",
+                            "Russian" : "Один из наиболее широко потребляемых продуктов питания в мире.\nНеобходимо приготовить перед едой.",
+                            "Polish" : "Jeden z najczęściej spożywanych pokarmów na świecie.\nNależy go ugotować przed jedzeniem:szklanka ryżu i dwie szklanki wody.",
+                            "French (France)" : "L'un des aliments de base les plus consommés dans le monde.\nIl doit être cuit avant d'être consommé : une part de riz et deux parts d'eau."
     },
     "GAMEPLAY_SPAM" : {
                             "English" : "SPAM",
                             "German" : "Frühstücksfleisch",
                             "Russian" : "Мясные консервы 'SPAM'",
-                            "Polish" : "Szynka konserwowa"
+                            "Polish" : "Szynka konserwowa",
+                            "French (France)" : "SPAM"
     },
     "GAMEPLAY_SPAMDescription" : {
                             "English" : "Canned pork. Cheap and simple.",
                             "German" : "Schweinefleisch in Dosen. Billig und einfach.",
                             "Russian" : "Консервированное мясо. Дешево и просто.",
-                            "Polish" : "Wieprzowina w puszce. Tania i prosta."
+                            "Polish" : "Wieprzowina w puszce. Tania i prosta.",
+                            "French (France)" : "Porc en conserve. Bon marché et simple."
     },
-    "GAMEPLAY_ModSyrup" : {
-                            "English" : "Maple Syrup",
-                            "German" : "Ahornsirup",
-                            "Polish" : "Syrop klonowy"
+    "GAMEPLAY_VodkaBottle" : {
+                            "English" : "Vodka Bottle"
     },
-    "GAMEPLAY_ModSyrupDescription" : {
-                            "English" : "Delicious maple syrup. There had to be some around here!\nMaple syrup will never spoil!",
-                            "German" : "Köstliches Ahornsirup. Das musste es hier einfach geben.\n Ahornsirup wird niemals schlecht!",
-                            "Polish" : "Pyszny syrop klonowu. Musi być go więcej./nSyrop klonowy nigdy się nie psuje!"
+    "GAMEPLAY_VodkaBottleDescription" : {
+                            "English" : "A bottle of the hard stuff for when you just want to fall over."
     },
-    "GAMEPLAY_HotCocoaBox" : {
-                            "English" : "Hot Cocoa Box",
-                            "Polish" : "Pudełko kakao"
+    "GAMEPLAY_WhiskyFlask" : {
+                            "English" : "Hip Flask",
+                            "German" : "Flachmann",
+                            "Russian" : "Фляжка",
+                            "Polish" : "Piersiówka",
+                            "French (France)" : "Flasque"
     },
-    "GAMEPLAY_HotCocoaBoxDescription" : {
-                            "English" : "A box of packets for making Hot Cocoa.",
-                            "Polish" : "Pudełko pełne saszetek kakao"
+    "GAMEPLAY_WhiskyFlaskDescription" : {
+                            "English" : "Smells like Whisky.\nMaybe one small sip against the cold fingers...",
+                            "German" : "Riecht wie Whisky.\nVielleicht ein kleines Schlückchen gegen die kalten Finger...",
+                            "Russian" : "Пахнет как виски.\nМожет быть, один маленький глоток поможет согреться ...",
+                            "Polish" : "Pachnie jak whisky.\nMoże mały łyczek by ogrzać zmrożone palce...",
+                            "French (France)" : "Sent le whisky.\nPeut-être qu'une petite gorgée contre les doigts froids..."
     },
-    "GAMEPLAY_HotCocoaBoxStackSingle" : {
-                            "English" : "Hot Cocoa Packet",
-                            "Polish" : "Saszetka kakao"
+    "GAMEPLAY_WineBottle" : {
+                            "English" : "Wine Bottle",
+                            "Polish" : "Butelka wina",
+                            "French (France)" : "Bouteille de vin"
     },
-    "GAMEPLAY_HotCocoaBoxStackMultiple" : {
-                            "English" : "Hot Cocoa Packets",
-                            "Polish" : "Saszetki kakao"
+    "GAMEPLAY_WineBottleDescription" : {
+                            "English" : "A bottle of wine for that big celebration. Don't drink too much at once.",
+                            "Polish" : "Gdy masz powód do świętowania. Nie wypij wszystkiego na raz!",
+                            "French (France)" : "Une bouteille de vin pour faire la fête. Ne buvez pas tout d'un coup."
     },
-    "GAMEPLAY_HotCocoaCup" : {
-                            "English" : "Cup of Hot Cocoa",
-                            "Polish" : "Kubek kakao"
+    "GAMEPLAY_RandomLargeCannedFood" : {
+                            "English" : "Random Large Canned Food"
     },
-    "GAMEPLAY_HotCocoaCupDescription" : {
-                            "English" : "A delicious cup of your favorite hot cocoa.",
-                            "Polish" : "Kubek przepysznego kakao, Twój ulubiony rodzaj."
+    "GAMEPLAY_RandomLargeCannedFoodDescription" : {
+                            "English" : "A spawn point for large canned food items."
     },
-    "GAMEPLAY_HotCocoaBag" : {
-                            "English" : "Hot Cocoa Packet",
-                            "Polish" : "Saszetka kakao"
+    "GAMEPLAY_RandomMediumCannedFood" : {
+                            "English" : "Random Medium Canned Food"
     },
-    "GAMEPLAY_HotCocoaBagDescription" : {
-                            "English" : "A packet for making Hot Cocoa.",
-                            "Polish" : "Saszetka kakao, gotowa do zalania."
+    "GAMEPLAY_RandomMediumCannedFoodDescription" : {
+                            "English" : "A spawn point for medium canned food items."
     },
-    "GAMEPLAY_Cookies" : {
-                            "English" : "Cookies",
-                            "Polish" : "Ciastka"
+    "GAMEPLAY_RandomSodaTall" : {
+                            "English" : "Random Tall Soda Can"
     },
-    "GAMEPLAY_CookiesDescription" : {
-                            "English" : "A little stale, but they still taste good.",
-                            "Polish" : "Odrobinę zwietrzałe, ale nadal nieźle smakują."
+    "GAMEPLAY_RandomSodaTallDescription" : {
+                            "English" : "A spawn point for tall soda cans."
+    },
+    "GAMEPLAY_RandomSmallPacket" : {
+                            "English" : "Random Small Packet"
+    },
+    "GAMEPLAY_RandomSmallPacketDescription" : {
+                            "English" : "A spawn point for small food packets."
+    },
+    "GAMEPLAY_RandomCerealBox" : {
+                            "English" : "Random Cereal Box"
+    },
+    "GAMEPLAY_RandomCerealBoxDescription" : {
+                            "English" : "A spawn point for cereal boxes."
+    },
+    "GAMEPLAY_RandomLiquorBottle" : {
+                            "English" : "Random Liquor Bottle"
+    },
+    "GAMEPLAY_RandomLiquorBottleDescription" : {
+                            "English" : "A spawn point for liquor bottles."
     }
 }

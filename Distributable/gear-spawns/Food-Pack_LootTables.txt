@@ -1,0 +1,131 @@
+#-----------------
+loottable=BackPack
+#-----------------
+item=AuroraEnergyDrink w=5
+item=BeerBottle w=3
+item=CannedChili w=2
+item=CannedMangos w=2
+item=CannedPears w=3
+item=CannedPineapples w=4
+item=CannedSpaghetti w=2
+item=CannedStew w=2
+item=CatFood w=1
+item=HoneyJar w=1
+item=SPAM w=1
+item=WhiskyFlask w=1
+
+
+#--------------------
+loottable=CargoDrinkA
+#--------------------
+item=BeerBottle w=5
+
+
+#--------------------
+loottable=CargoDrinkB
+#--------------------
+item=BeerBottle w=5
+
+
+#--------------------
+loottable=CargoDrinkC
+#--------------------
+item=BeerBottle w=5
+
+
+#----------------
+loottable=CashRegister
+#----------------
+item=WhiskyFlask w=1
+
+
+#----------------------
+loottable=FishingDrawer
+#----------------------
+item=CannedChili w=2
+item=CannedSpaghetti w=2
+item=CannedStew w=2
+item=WhiskyFlask w=1
+
+
+#----------------
+loottable=FirstAidKit
+#----------------
+item=WhiskyFlask w=1
+
+
+#----------------
+loottable=Freezer
+#----------------
+item=AuroraEnergyDrink w=10
+
+
+#---------------
+loottable=Fridge
+#---------------
+item=AuroraEnergyDrink w=5
+item=BeerBottle w=10
+item=RiceCooked w=2
+
+
+#--------------------
+loottable=HumanCorpse
+#--------------------
+item=CannedChili w=1
+item=CannedSpaghetti w=1
+item=CannedStew w=1
+item=CatFood w=2
+item=BeerBottle w=2
+item=WhiskyFlask w=1
+
+
+#------------------------
+loottable=KitchenCupboard
+#------------------------
+item=AuroraEnergyDrink w=3
+item=BeerBottle w=5
+item=CannedChili w=5
+item=CannedMangos w=3
+item=CannedPears w=4
+item=CannedPineapples w=5
+item=CannedSpaghetti w=5
+item=CannedStew w=5
+item=CatFood w=5
+item=Cornflakes w=10
+item=HoneyJar w=2
+item=ModSyrup w=2
+item=RiceRaw w=5
+item=SPAM w=2
+item=HotCocoaBox w=10
+
+
+#---------------
+loottable=Locker
+#---------------
+item=CatFood w=3
+item=BeerBottle w=1
+
+
+#-----------------
+loottable=MetalBox
+#-----------------
+item=CannedChili w=2
+item=CannedSpaghetti w=2
+item=CannedStew w=2
+item=CatFood w=3
+item=SPAM w=2
+
+
+#-------------------
+loottable=PlasticBox
+#-------------------
+item=AuroraEnergyDrink w=2
+item=CatFood w=3
+item=RiceRaw w=2
+
+
+#-------------------------
+loottable=Wardrobe_regular
+#-------------------------
+item=BeerBottle w=2
+item=WhiskyFlask w=1

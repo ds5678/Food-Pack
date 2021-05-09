@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4228970817205371753}
   - component: {fileID: 16265331828671584}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_HotCocoaCup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 8402198732225696764}
   - component: {fileID: 4857982080582349796}
   - component: {fileID: 3578495281911187964}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Cup of Cocoa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,8 +103,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 35687503e9fe26d469dd700d3a9d7241, type: 3}
-  - {fileID: -3846018093981099296, guid: 35687503e9fe26d469dd700d3a9d7241, type: 3}
+  - {fileID: 2100000, guid: bfa75c8652c30a8459cef30322043bfd, type: 2}
+  - {fileID: 2100000, guid: a324072ccdf7740469669851a1a1139d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
