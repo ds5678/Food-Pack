@@ -5,7 +5,8 @@
                             "Russian" : "Энергетический напиток",
                             "Polish" : "Napój energetyczny",
                             "French (France)" : "Boisson énergisante",
-                            "Turkish" : "Enerji içeceği"
+                            "Turkish" : "Enerji içeceği",
+                            "Korean" : "에너지 드링크"
     },
     "GAMEPLAY_AuroraEnergyDrinkDescription" : {
                             "English" : "Might keep you awake for a few more hours, but this won't make you fly.",
@@ -13,7 +14,8 @@
                             "Russian" : "Возможно, вы не заснете еще несколько часов, но он не заставит вас летать.",
                             "Polish" : "Może pomóc Ci zachować przytomność na parę godzin, ale nie doda Ci skrzydeł.",
                             "French (France)" : "Ça peut vous tenir éveillé quelques heures de plus, mais ça ne vous donnera pas des ailes.",
-                            "Turkish" : "Seni birkaç saat daha uyanık tutabilir ama bu seni uçurmaz."
+                            "Turkish" : "Seni birkaç saat daha uyanık tutabilir ama bu seni uçurmaz.",
+                            "Korean" : "당신에게 날개를 달아줄 순 없지만, 몇 시간정도 깨어있는덴 도움이 됩니다."
     },
     "GAMEPLAY_BeerBottle" : {
                             "English" : "Beer",
@@ -21,7 +23,8 @@
                             "Russian" : "Пиво",
                             "Polish" : "Piwo",
                             "French (France)" : "Bière",
-                            "Turkish" : "Bira"
+                            "Turkish" : "Bira",
+                            "Korean" : "맥주"
     },
     "GAMEPLAY_BeerBottleDescription" : {
                             "English" : "A nice bottle of beer.\nHave a cold one!\n\nAlcohol 5% vol",
@@ -29,15 +32,20 @@
                             "Russian" : "Хорошая бутылка пива.\n\nСодержание алкоголя 5%",
                             "Polish" : "Butelka piwa.\nSpożywaj schłodzone!\n\nAlkohol5%",
                             "French (France)" : "Une bonne bouteille de bière.\nBuvez-en une fraîche ! \n\nAlcool 5% vol.",
-                            "Turkish" : "A nice bottle of beer. Soğuk olsun! %5 Oranında alkol içerir.!"
+                            "Turkish" : "A nice bottle of beer. Soğuk olsun! %5 Oranında alkol içerir.!",
+                            "Korean" : "병맥주\n시원하게 즐겨요!\n알콜함량 5%"
     },
     "GAMEPLAY_Bread" : {
                             "English" : "Bread",
-                            "Turkish" : "Ekmek"
+                            "French (France)" : "Pain",
+                            "Turkish" : "Ekmek",
+                            "Korean" : "빵"
     },
     "GAMEPLAY_BreadDescription" : {
                             "English" : "A loaf of generic white bread.",
-                            "Turkish" : "Bir somun jenerik beyaz ekmek."
+                            "French (France)" : "Une miche de pain blanc générique.",
+                            "Turkish" : "Bir somun jenerik beyaz ekmek.",
+                            "Korean" : "일반적인 빵 한 덩어리"
     },
     "GAMEPLAY_CannedChili" : {
                             "English" : "Chili",
@@ -45,7 +53,8 @@
                             "Russian" : "Банка Чили",
                             "Polish" : "Chili",
                             "French (France)" : "Chili",
-                            "Turkish" : "Acı Biber"
+                            "Turkish" : "Acı Biber",
+                            "Korean" : "칠리 통조림"
     },
     "GAMEPLAY_CannedChiliDescription" : {
                             "English" : "Hearty. Warming. Soul soothing. Chili!",
@@ -53,7 +62,8 @@
                             "Russian" : "Перекус для любителей поострее.",
                             "Polish" : "Krzepi. Rozgrzewa. Karmi duszę. Chili!",
                             "French (France)" : "Cordial. Réchauffant. Apaisant. Du chili !",
-                            "Turkish" : "Doyurucu, Isıtıcı, Ruh yatıştırıcı Acı biber!"
+                            "Turkish" : "Doyurucu, Isıtıcı, Ruh yatıştırıcı Acı biber!",
+                            "Korean" : "따듯하게 마음을 위로해주는 칠리!"
     },
     "GAMEPLAY_CannedMangos" : {
                             "English" : "Diced Mangos",
@@ -61,7 +71,8 @@
                             "Russian" : "Манго",
                             "Polish" : "Krojone mango",
                             "French (France)" : "Mangues en dés",
-                            "Turkish" : "Doğranmış Mangolar"
+                            "Turkish" : "Doğranmış Mangolar",
+                            "Korean" : "망고 통조림"
     },
     "GAMEPLAY_CannedMangosDescription" : {
                             "English" : "Delicious and sweet.",
@@ -69,7 +80,8 @@
                             "Russian" : "Кусочки ананаса высокого качества.",
                             "Polish" : "Pyszne i słodkie",
                             "French (France)" : "Délicieux et sucré.",
-                            "Turkish" : "Lezzetli ve tatlı."
+                            "Turkish" : "Lezzetli ve tatlı.",
+                            "Korean" : "달고 맛있습니다."
     },
     "GAMEPLAY_CannedPears" : {
                             "English" : "Pear Halves",
@@ -77,7 +89,8 @@
                             "Russian" : "Груши половинки",
                             "Polish" : "Połówki brzoskwini",
                             "French (France)" : "Demi-poires",
-                            "Turkish" : "Yarım Armut"
+                            "Turkish" : "Yarım Armut",
+                            "Korean" : "배 통조림"
     },
     "GAMEPLAY_CannedPearsDescription" : {
                             "English" : "Delicious and sweet.",
@@ -85,7 +98,8 @@
                             "Russian" : "Кусочки ананаса высокого качества.",
                             "Polish" : "Pyszne i słodkie",
                             "French (France)" : "Délicieux et sucré.",
-                            "Turkish" : "Lezzetli ve tatlı."
+                            "Turkish" : "Lezzetli ve tatlı.",
+                            "Korean" : "달고 맛있습니다."
     },
     "GAMEPLAY_CannedPineapples" : {
                             "English" : "Pineapple Slices",
@@ -93,7 +107,8 @@
                             "Russian" : "Ломтики ананаса",
                             "Polish" : "Krojony ananas",
                             "French (France)" : "Tranches d'ananas",
-                            "Turkish" : "Ananas Dilimleri"
+                            "Turkish" : "Ananas Dilimleri",
+                            "Korean" : "파인애플 통조림"
     },
     "GAMEPLAY_CannedPineapplesDescription" : {
                             "English" : "Delicious and sweet.",
@@ -101,7 +116,8 @@
                             "Russian" : "Кусочки ананаса высокого качества.",
                             "Polish" : "Pyszny i słodki",
                             "French (France)" : "Délicieux et sucré.",
-                            "Turkish" : "Lezzetli ve tatlı."
+                            "Turkish" : "Lezzetli ve tatlı.",
+                            "Korean" : "달고 맛있습니다."
     },
     "GAMEPLAY_CannedSpaghetti" : {
                             "English" : "Spaghetti with Meatballs",
@@ -109,7 +125,8 @@
                             "Russian" : "Спагетти с фрикадельками",
                             "Polish" : "Spaghetti z klopsikami",
                             "French (France)" : "Spaghetti aux boulettes de viande",
-                            "Turkish" : "Köfteli Spagetti"
+                            "Turkish" : "Köfteli Spagetti",
+                            "Korean" : "미트볼 스파게티 통조림"
     },
     "GAMEPLAY_CannedSpaghettiDescription" : {
                             "English" : "Feed your inner child!",
@@ -117,7 +134,8 @@
                             "Russian" : "Накормите своего внутреннего ребенка!",
                             "Polish" : "Nakarm swoje wewnętrzne dziecko!",
                             "French (France)" : "Retournez en enfance !",
-                            "Turkish" : "İçinde Köfte Olan Lezzetli Hazır Spagetti !"
+                            "Turkish" : "İçinde Köfte Olan Lezzetli Hazır Spagetti !",
+                            "Korean" : "내면의 아이에게 한 끼를!"
     },
     "GAMEPLAY_CannedStew" : {
                             "English" : "Beef Stew",
@@ -125,7 +143,8 @@
                             "Russian" : "Тушеная говядина",
                             "Polish" : "Gulasz wołowy",
                             "French (France)" : "Ragoût de bœuf",
-                            "Turkish" : "Dana Yahni"
+                            "Turkish" : "Dana Yahni",
+                            "Korean" : "비프 스튜"
     },
     "GAMEPLAY_CannedStewDescription" : {
                             "English" : "A hearty meal with meat and vegetables. Good enough to forget about everything else for little while.",
@@ -133,7 +152,8 @@
                             "Russian" : "Сытный обед с мясом и овощами.",
                             "Polish" : "Krzepiący posiłek z mięsem i warzywami. Wystarczy, by na chwilé zapomnieć o wszystkim innym.",
                             "French (France)" : "Un repas copieux avec de la viande et des légumes. Assez bon pour oublier tout le reste pendant un petit moment.",
-                            "Turkish" : "Et ve sebze ile doyurucu bir yemek. Kısa bir süre için diğer her şeyi unutacak kadar iyi."
+                            "Turkish" : "Et ve sebze ile doyurucu bir yemek. Kısa bir süre için diğer her şeyi unutacak kadar iyi.",
+                            "Korean" : "고기와 야채가 들어간 푸짐한 한 끼. 잠시나마 세상의 고난을 잊게해줍니다."
     },
     "GAMEPLAY_CatFood" : {
                             "English" : "Cat Food",
@@ -141,7 +161,8 @@
                             "Russian" : "Кошачий корм",
                             "Polish" : "Karma dla kota",
                             "French (France)" : "Nourriture pour chat",
-                            "Turkish" : "Kedi Maması"
+                            "Turkish" : "Kedi Maması",
+                            "Korean" : "고양이 밥"
                             
     },
     "GAMEPLAY_CatFoodDescription" : {
@@ -150,31 +171,40 @@
                             "Russian" : "Банка кошачьей еды.\nПахнет ужасно, вероятно, вкус еще хуже.",
                             "Polish" : "Puszka kociej karmy.\nOkropnie śmierdzi, pewnie smakuje jeszcze gorzej.",
                             "French (France)" : "Une boîte de nourriture pour chat.\nÇa sent mauvais et ça aura probablement un goût encore pire.",
-                            "Turkish" : "Bir kutu kedi maması.\nÇok kötü kokuyor ve tadı muhtemelen çok kötü olsa gerek !"
+                            "Turkish" : "Bir kutu kedi maması.\nÇok kötü kokuyor ve tadı muhtemelen çok kötü olsa gerek !",
+                            "Korean" : "캔에 담긴 고양이 밥\n냄새가 끔찍하지만 맛은 더합니다."
     },
     "GAMEPLAY_CerealDescription" : {
                             "English" : "A big box of cereal. Very dry.",
-                            "Turkish" : "Büyük bir kutu mısır gevreği. Çok kuru."
+                            "French (France)" : "Une grosse boîte de céréales. Très sec.",
+                            "Turkish" : "Büyük bir kutu mısır gevreği. Çok kuru.",
+                            "Korean" : "시리얼이 담긴 박스. 매우 건조합니다."
     },
     "GAMEPLAY_CerealHoney" : {
                             "English" : "Honabee Breakfast Cereal",
-                            "Turkish" : "Arı Ballı Kahvaltılık Tahıl !"
+                            "French (France)" : "Céréales pour petit-déjeuner Honabee",
+                            "Turkish" : "Arı Ballı Kahvaltılık Tahıl !",
+                            "Korean" : "Honabee 아침대용 시리얼"
     },
     "GAMEPLAY_CerealWholeGrain" : {
                             "English" : "Whole Grain Cereal",
-                            "Turkish" : "Tam Tahıllı Gevrek"
+                            "French (France)" : "Céréales complètes",
+                            "Turkish" : "Tam Tahıllı Gevrek",
+                            "Korean" : "홀그레인 시리얼"
     },
     "GAMEPLAY_Cookies" : {
                             "English" : "Cookies",
                             "Polish" : "Ciastka",
                             "French (France)" : "Cookies",
-                            "Turkish" : "Kurabiye"
+                            "Turkish" : "Kurabiye",
+                            "Korean" : "쿠키"
     },
     "GAMEPLAY_CookiesDescription" : {
                             "English" : "A little stale, but they still taste good.",
                             "Polish" : "Odrobinę zwietrzałe, ale nadal nieźle smakują.",
                             "French (France)" : "Un peu rassis, mais ils ont toujours bon goût.",
-                            "Turkish" : "Biraz bayat ama yine de tadı güzel."
+                            "Turkish" : "Biraz bayat ama yine de tadı güzel.",
+                            "Korean" : "조금 오래된 것 같지만, 아직도 맛은 있습니다."
     },
     "GAMEPLAY_Cornflakes" : {
                             "English" : "Cornflakes",
@@ -182,7 +212,8 @@
                             "Russian" : "Кукурузные хлопья",
                             "Polish" : "Płatki kukurydziane",
                             "French (France)" : "Cornflakes",
-                            "Turkish" : "Mısır Gevreği"
+                            "Turkish" : "Mısır Gevreği",
+                            "Korean" : "콘프레이크"
     },
     "GAMEPLAY_CornflakesDescription" : {
                             "English" : "A big box of crispy cornflakes. Very dry.",
@@ -190,31 +221,44 @@
                             "Russian" : "Популярный, но отнюдь не идеальный готовый продукт, используемый для завтраков и перекусов.",
                             "Polish" : "Pudełko płatków kukurydzianych. Bardzo suche.",
                             "French (France)" : "Une grosse boîte de cornflakes croustillants. Très sec.",
-                            "Turkish" : "Büyük bir kutu mısır gevreği. Çok kuru."
+                            "Turkish" : "Büyük bir kutu mısır gevreği. Çok kuru.",
+                            "Korean" : "박스에 담긴 바삭한 콘프레이크. 매우 건조합니다."
     },
     "GAMEPLAY_CupMilk" : {
                             "English" : "Cup of Rehydrated Milk",
-                            "Turkish" : "Bir Bardak Rehidrate Süt"
+                            "French (France)" : "Tasse de lait réhydraté",
+                            "Turkish" : "Bir Bardak Rehidrate Süt",
+                            "Korean" : "분말우유"
     },
     "GAMEPLAY_CupMilkDescription" : {
                             "English" : "Well, it tastes better than boiled water.",
-                            "Turkish" : "Eh, kaynamış sudan daha lezzetli."
+                            "French (France)" : "Eh bien, ça a meilleur goût que l'eau bouillie.",
+                            "Turkish" : "Eh, kaynamış sudan daha lezzetli.",
+                            "Korean" : "음, 끓인 물보단 맛있습니다."
     },
     "GAMEPLAY_DryMilkPacket" : {
                             "English" : "Dry Milk Packet",
-                            "Turkish" : "Kuru Süt Paketi"
+                            "French (France)" : "Sachet de lait en poudre",
+                            "Turkish" : "Kuru Süt Paketi",
+                            "Korean" : "분유팩"
     },
     "GAMEPLAY_DryMilkPacketDescription" : {
                             "English" : "A packet of dried milk powder.",
-                            "Turkish" : "Bir paket kuru süt tozu."
+                            "French (France)" : "Un paquet de lait en poudre.",
+                            "Turkish" : "Bir paket kuru süt tozu.",
+                            "Korean" : "팩에담긴 우유 분말"
     },
     "GAMEPLAY_ForsakenSpirits" : {
                             "English" : "Forsaken Spirits",
-                            "Turkish" : "Terkedilmiş Ruhlar"
+                            "French (France)" : "Eau de vie Forsaken Spirits",
+                            "Turkish" : "Terkedilmiş Ruhlar",
+                            "Korean" : "고독한 영혼 "
     },
     "GAMEPLAY_ForsakenSpiritsDescription" : {
                             "English" : "Life is better on the edge. Contains 5% alcohol.",
-                            "Turkish" : "Hayat kenarda daha iyidir. %5 alkollü İçeçecek"
+                            "French (France)" : "On ne vie qu'une fois. Contient 5% d'alcool.",
+                            "Turkish" : "Hayat kenarda daha iyidir. %5 alkollü İçeçecek",
+                            "Korean" : "굴곡있는 삶이 재밌는법. 알콜함량 5%."
     },
     "GAMEPLAY_HoneyJar" : {
                             "English" : "Jar of Honey",
@@ -222,7 +266,8 @@
                             "Russian" : "Мёд лесной",
                             "Polish" : "Słoik miodu",
                             "French (France)" : "Pot de miel",
-                            "Turkish" : "Bal kavanozu"
+                            "Turkish" : "Bal kavanozu",
+                            "Korean" : "꿀단지"
     },
     "GAMEPLAY_HoneyJarDescription" : {
                             "English" : "A true lifesaver! Honey provides calories, vitamins, minerals and will never spoil!",
@@ -230,85 +275,104 @@
                             "Russian" : "Вкусное и очень полезное лакомство.",
                             "Polish" : "Uratuje Ci życie. Miód dostarcza kalorii, witamin, minerałów - i nigdy się nie psuje.",
                             "French (France)" : "Il peut vous sauver la vie ! Le miel fournit des calories, des vitamines, des minéraux et ne se périme jamais !",
-                            "Turkish" : "Gerçek bir cankurtaran! Bal; kalori, vitamin, mineral sağlar ve asla bozulmaz!"
+                            "Turkish" : "Gerçek bir cankurtaran! Bal; kalori, vitamin, mineral sağlar ve asla bozulmaz!",
+                            "Korean" : "진정한 생명의 은인! 칼로리, 비타민, 미네랄을 섭취할 수 있으며 심지어 상하지도 않습니다!"
     },
     "GAMEPLAY_HotCocoaBag" : {
                             "English" : "Hot Cocoa Packet",
                             "Polish" : "Saszetka kakao",
                             "French (France)" : "Sachet de chocolat en poudre.",
-                            "Turkish" : "Sıcak Kakao Paketi"
+                            "Turkish" : "Sıcak Kakao Paketi",
+                            "Korean" : "핫초코 팩"
     },
     "GAMEPLAY_HotCocoaBagDescription" : {
                             "English" : "A packet for making Hot Cocoa.",
                             "Polish" : "Saszetka kakao, gotowa do zalania.",
                             "French (France)" : "Un sachet pour faire du chocolat chaud.",
-                            "Turkish" : "Sıcak Kakao yapmak için bir paket."
+                            "Turkish" : "Sıcak Kakao yapmak için bir paket.",
+                            "Korean" : "핫초코를 만들 수 있는 코코아 분말팩"
     },
     "GAMEPLAY_HotCocoaBox" : {
                             "English" : "Hot Cocoa Box",
                             "Polish" : "Pudełko kakao",
                             "French (France)" : "Boite de chocolat en poudre",
-                            "Turkish" : "Sıcak Kakao Kutusu"
+                            "Turkish" : "Sıcak Kakao Kutusu",
+                            "Korean" : "핫초코 박스"
     },
     "GAMEPLAY_HotCocoaBoxDescription" : {
                             "English" : "A box of packets for making Hot Cocoa.",
                             "Polish" : "Pudełko pełne saszetek kakao",
                             "French (France)" : "Une boîte de sachets pour faire du chocolat chaud.",
-                            "Turkish" : "Sıcak Kakao yapmak için bir kutu Kakao !"
+                            "Turkish" : "Sıcak Kakao yapmak için bir kutu Kakao !",
+                            "Korean" : "핫초코를 만들 수 있는 코코아 분말상자"
     },
     "GAMEPLAY_HotCocoaBoxStackSingle" : {
                             "English" : "Hot Cocoa Packet",
                             "Polish" : "Saszetka kakao",
                             "French (France)" : "Sachet de chocolat en poudre.",
-                            "Turkish" : "Sıcak Kakao Paketleri"
+                            "Turkish" : "Sıcak Kakao Paketleri",
+                            "Korean" : "핫초코 팩"
     },
     "GAMEPLAY_HotCocoaBoxStackMultiple" : {
                             "English" : "Hot Cocoa Packets",
                             "Polish" : "Saszetki kakao",
                             "French (France)" : "Sachets de chocolat en poudre.",
-                            "Turkish" : "Sıcak Kakao Paketleri"
+                            "Turkish" : "Sıcak Kakao Paketleri",
+                            "Korean" : "핫초코 팩"
     },
     "GAMEPLAY_HotCocoaCup" : {
                             "English" : "Cup of Hot Cocoa",
                             "Polish" : "Kubek kakao",
                             "French (France)" : "Tasse de chocolat chaud.",
-                            "Turkish" : "Bir Fincan Sıcak Kakao"
+                            "Turkish" : "Bir Fincan Sıcak Kakao",
+                            "Korean" : "핫초코"
     },
     "GAMEPLAY_HotCocoaCupDescription" : {
                             "English" : "A delicious cup of your favorite hot cocoa.",
                             "Polish" : "Kubek przepysznego kakao, Twój ulubiony rodzaj.",
                             "French (France)" : "Une délicieuse tasse de votre chocolat chaud préféré.",
-                            "Turkish" : "En sevdiğiniz sıcak kakaodan lezzetli bir fincan."
+                            "Turkish" : "En sevdiğiniz sıcak kakaodan lezzetli bir fincan.",
+                            "Korean" : "당신이 제일 좋아하는 핫초코"
     },
     "GAMEPLAY_ModChocolateBar" : {
                             "English" : "Dark Chocolate Bar",
-                            "Turkish" : "Bitter Çikolata Barı"
+                            "French (France)" : "Barre de chocolat noir",
+                            "Turkish" : "Bitter Çikolata Barı",
+                            "Korean" : "다크 초콜릿바"
     },
     "GAMEPLAY_ModChocolateBarDescription" : {
                             "English" : "Dark and full of caffeine. Gives a little boost when you're tired.",
-                            "Turkish" : "Siyah ve kafein dolu Çikolata Barı. Yorgun olduğunuzda biraz destek verir."
+                            "French (France)" : "Noir et plein de caféine. Ça donne un petit coup de fouet quand on est fatigué.",
+                            "Turkish" : "Siyah ve kafein dolu Çikolata Barı. Yorgun olduğunuzda biraz destek verir.",
+                            "Korean" : "다량의 카페인이 함유된 다크 초콜릿. 지친 몸에 약간의 각성을 줍니다."
     },
     "GAMEPLAY_ModSyrup" : {
                             "English" : "Maple Syrup",
                             "German" : "Ahornsirup",
                             "Polish" : "Syrop klonowy",
                             "French (France)" : "Sirop d'érable",
-                            "Turkish" : "Akçaağaç Şurubu"
+                            "Turkish" : "Akçaağaç Şurubu",
+                            "Korean" : "메이플 시럽"
     },
     "GAMEPLAY_ModSyrupDescription" : {
                             "English" : "Delicious maple syrup. There had to be some around here!\nMaple syrup will never spoil!",
                             "German" : "Köstliches Ahornsirup. Das musste es hier einfach geben.\n Ahornsirup wird niemals schlecht!",
                             "Polish" : "Pyszny syrop klonowu. Musi być go więcej./nSyrop klonowy nigdy się nie psuje!",
                             "French (France)" : "Délicieux sirop d'érable. Il devait forcément y en avoir par ici ! \nLe sirop d'érable ne se périme jamais !",
-                            "Turkish" : "Lezzetli akçaağaç şurubu. Buralarda biraz olmalı! Asla bozulmaz!"
+                            "Turkish" : "Lezzetli akçaağaç şurubu. Buralarda biraz olmalı! Asla bozulmaz!",
+                            "Korean" : "맛있는 메이플 시럽. 주변에 더 있었어야 했는데!\n상하지 않습니다."
     },
     "GAMEPLAY_MountainSoda" : {
                             "English" : "Mountain Soda",
-                            "Turkish" : "Dağ Sodası"
+                            "French (France)" : "Soda Mountain",
+                            "Turkish" : "Dağ Sodası",
+                            "Korean" : "마운틴 소다"
     },
     "GAMEPLAY_MountainSodaDescription" : {
                             "English" : "Mountain made. Mountain fresh.",
-                            "Turkish" : "Dağ Yapımı Soda"
+                            "French (France)" : "Fait à la montagne. Frais comme la montagne.",
+                            "Turkish" : "Dağ Yapımı Soda",
+                            "Korean" : "산이 만들어 낸 청량함."
     },
     "GAMEPLAY_RiceCooked" : {
                             "English" : "Long-Grain Rice (Cooked)",
@@ -316,7 +380,8 @@
                             "Russian" : "Рис длиннозерный (Приготовленный)",
                             "Polish" : "Ryż długoziarnisty (gotowany)",
                             "French (France)" : "Riz long (Cuit)",
-                            "Turkish" : "Uzun Taneli Pirinç (Pişmiş)"
+                            "Turkish" : "Uzun Taneli Pirinç (Pişmiş)",
+                            "Korean" : "쌀 (조리됨)"
     },
     "GAMEPLAY_RiceCookedDescription" : {
                             "English" : "Pure cooked white rice is rather dull, but provides good calories.",
@@ -324,7 +389,8 @@
                             "Russian" : "Приготовленный белый рис, отлично утоляет голод.",
                             "Polish" : "Sam gotowany ryż jest raczej nudny, ale dostarcza wielu kalorii.",
                             "French (France)" : "Le riz blanc nature est plutôt fade, mais fournit beaucoup de calories.",
-                            "Turkish" : "Saf pişmiş beyaz pirinç oldukça sıkıcıdır, ancak iyi kalori sağlar."
+                            "Turkish" : "Saf pişmiş beyaz pirinç oldukça sıkıcıdır, ancak iyi kalori sağlar.",
+                            "Korean" : "조리된 쌀. 윤기는 없을지라도 칼로리는 높습니다."
     },
     "GAMEPLAY_RiceRaw" : {
                             "English" : "Long-Grain Rice (Raw)",
@@ -332,7 +398,8 @@
                             "Russian" : "Рис длиннозерный (Сырой)",
                             "Polish" : "Ryż długoziarnisty",
                             "French (France)" : "Riz long (Cru)",
-                            "Turkish" : "Uzun Taneli Pirinç (Çiğ)"
+                            "Turkish" : "Uzun Taneli Pirinç (Çiğ)",
+                            "Korean" : "쌀 (조리되지 않음)"
     },
     "GAMEPLAY_RiceRawDescription" : {
                             "English" : "One of the most widely consumed staple foods in the world.\nNeeds to be cooked before it can be eaten: one part rice and two parts water.",
@@ -340,7 +407,8 @@
                             "Russian" : "Один из наиболее широко потребляемых продуктов питания в мире.\nНеобходимо приготовить перед едой.",
                             "Polish" : "Jeden z najczęściej spożywanych pokarmów na świecie.\nNależy go ugotować przed jedzeniem:szklanka ryżu i dwie szklanki wody.",
                             "French (France)" : "L'un des aliments de base les plus consommés dans le monde.\nIl doit être cuit avant d'être consommé : une part de riz et deux parts d'eau.",
-                            "Turkish" : "Dünyada en çok tüketilen temel gıdalardan biri.\nYenmeden önce pişirilmesi gerekiyor: bir ölçü pirinç ve iki ölçü su."
+                            "Turkish" : "Dünyada en çok tüketilen temel gıdalardan biri.\nYenmeden önce pişirilmesi gerekiyor: bir ölçü pirinç ve iki ölçü su.",
+                            "Korean" : "세계에서 가장 많이 소비되는 주식중 하나.\n먹기 위해선 조리해야 합니다: 쌀과 물 1대 2비율 조리"
     },
     "GAMEPLAY_SPAM" : {
                             "English" : "SPAM",
@@ -348,7 +416,8 @@
                             "Russian" : "Мясные консервы 'SPAM'",
                             "Polish" : "Szynka konserwowa",
                             "French (France)" : "SPAM",
-                            "Turkish" : "Konserve jambon"
+                            "Turkish" : "Konserve jambon",
+                            "Korean" : "스팸"
     },
     "GAMEPLAY_SPAMDescription" : {
                             "English" : "Canned pork. Cheap and simple.",
@@ -356,15 +425,20 @@
                             "Russian" : "Консервированное мясо. Дешево и просто.",
                             "Polish" : "Wieprzowina w puszce. Tania i prosta.",
                             "French (France)" : "Porc en conserve. Bon marché et simple.",
-                            "Turkish" : "Konserve domuz eti jambon. Ucuz ve basit."
+                            "Turkish" : "Konserve domuz eti jambon. Ucuz ve basit.",
+                            "Korean" : "돼지고기 통조림. 저렴하고 간단히 먹을 수 있습니다."
     },
     "GAMEPLAY_VodkaBottle" : {
                             "English" : "Vodka Bottle",
-                            "Turkish" : "Votka Şişesi"
+                            "French (France)" : "Bouteille de vodka",
+                            "Turkish" : "Votka Şişesi",
+                            "Korean" : "보드카"
     },
     "GAMEPLAY_VodkaBottleDescription" : {
                             "English" : "A bottle of the hard stuff for when you just want to fall over.",
-                            "Turkish" : "Sadece düşmek istediğin zamanlar için bir sert şişe Votka"
+                            "French (France)" : "Une bouteille d'alcool fort, pour les moments où vous avez juste envie de vous écrouler.",
+                            "Turkish" : "Sadece düşmek istediğin zamanlar için bir sert şişe Votka",
+                            "Korean" : "코가 비뚤어지고 싶을 때를 위한 독한 술"
     },
     "GAMEPLAY_WhiskyFlask" : {
                             "English" : "Hip Flask",
@@ -372,7 +446,8 @@
                             "Russian" : "Фляжка",
                             "Polish" : "Piersiówka",
                             "French (France)" : "Flasque",
-                            "Turkish" : "Konyak"
+                            "Turkish" : "Konyak",
+                            "Korean" : "힙 플라스크"
     },
     "GAMEPLAY_WhiskyFlaskDescription" : {
                             "English" : "Smells like Whisky.\nMaybe one small sip against the cold fingers...",
@@ -380,66 +455,81 @@
                             "Russian" : "Пахнет как виски.\nМожет быть, один маленький глоток поможет согреться ...",
                             "Polish" : "Pachnie jak whisky.\nMoże mały łyczek by ogrzać zmrożone palce...",
                             "French (France)" : "Sent le whisky.\nPeut-être qu'une petite gorgée contre les doigts froids...",
-                            "Turkish" : "Viski gibi kokuyor.\nBelki soğuk parmaklara karşı küçük bir yudum..."
+                            "Turkish" : "Viski gibi kokuyor.\nBelki soğuk parmaklara karşı küçük bir yudum...",
+                            "Korean" : "위스키 냄새가 납니다\n얼어있는 손가락을 녹일 수 있도록 한모금..."
     },
     "GAMEPLAY_WineBottle" : {
                             "English" : "Wine Bottle",
                             "Polish" : "Butelka wina",
                             "French (France)" : "Bouteille de vin",
-                            "Turkish" : "Şarap Şişesi"
+                            "Turkish" : "Şarap Şişesi",
+                            "Korean" : "병 와인"
     },
     "GAMEPLAY_WineBottleDescription" : {
                             "English" : "A bottle of wine for that big celebration. Don't drink too much at once.",
                             "Polish" : "Gdy masz powód do świętowania. Nie wypij wszystkiego na raz!",
                             "French (France)" : "Une bouteille de vin pour faire la fête. Ne buvez pas tout d'un coup.",
-                            "Turkish" : "Büyük kutlama için bir şişe şarap. Bir seferde çok fazla içmeyin."
+                            "Turkish" : "Büyük kutlama için bir şişe şarap. Bir seferde çok fazla içmeyin.",
+                            "Korean" : "축배를 들기위한 와인 한 병. 한 번에 너무 많이 마시진 마세요"
     },
     "GAMEPLAY_RandomLargeCannedFood" : {
                             "English" : "Random Large Canned Food",
-                            "Turkish" : "Rastgele Büyük Konserve Gıda"
+                            "Turkish" : "Rastgele Büyük Konserve Gıda",
+                            "Korean" : "무작위 대용량 통조림"
     },
     "GAMEPLAY_RandomLargeCannedFoodDescription" : {
                             "English" : "A spawn point for large canned food items.",
-                            "Turkish" : "Büyük konserve yiyecekler için bir yumurtlama noktası."
+                            "Turkish" : "Büyük konserve yiyecekler için bir yumurtlama noktası.",
+                            "Korean" : "무작위 큰 통조림 아이템의 스폰 지점입니다."
     },
     "GAMEPLAY_RandomMediumCannedFood" : {
                             "English" : "Random Medium Canned Food",
-                            "Turkish" : "Rastgele Orta Konserve Gıda"
+                            "Turkish" : "Rastgele Orta Konserve Gıda",
+                            "Korean" : "무작위 중간 통조림"
     },
     "GAMEPLAY_RandomMediumCannedFoodDescription" : {
                             "English" : "A spawn point for medium canned food items.",
-                            "Turkish" : "Orta boy konserve yiyecekler için bir yumurtlama noktası."
+                            "Turkish" : "Orta boy konserve yiyecekler için bir yumurtlama noktası.",
+                            "Korean" : "무작위 중간 통조림 아이템의 스폰 지점입니다."
     },
     "GAMEPLAY_RandomSodaTall" : {
                             "English" : "Random Tall Soda Can",
-                            "Turkish" : "Rastgele Uzun Soda Kutusu"
+                            "Turkish" : "Rastgele Uzun Soda Kutusu",
+                            "Korean" : "무작위 큰 소다 캔."
     },
     "GAMEPLAY_RandomSodaTallDescription" : {
                             "English" : "A spawn point for tall soda cans.",
-                            "Turkish" : "Uzun soda kutuları için bir yumurtlama noktası."
+                            "Turkish" : "Uzun soda kutuları için bir yumurtlama noktası.",
+                            "Korean" : "무작위 큰 소다 캔 아이템의 스폰 지점입니다."
     },
     "GAMEPLAY_RandomSmallPacket" : {
                             "English" : "Random Small Packet",
-                            "Turkish" : "Rastgele Küçük Paket"
+                            "Turkish" : "Rastgele Küçük Paket",
+                            "Korean" : "무작위 소용량 분말팩"
     },
     "GAMEPLAY_RandomSmallPacketDescription" : {
                             "English" : "A spawn point for small food packets.",
-                            "Turkish" : "Küçük yiyecek paketleri için bir yumurtlama noktası."
+                            "Turkish" : "Küçük yiyecek paketleri için bir yumurtlama noktası.",
+                            "Korean" : "무작위 소용량 분말팩 아이템의 스폰 지점입니다."
     },
     "GAMEPLAY_RandomCerealBox" : {
                             "English" : "Random Cereal Box",
-                            "Turkish" : "Rastgele Tahıl Kutusu"
+                            "Turkish" : "Rastgele Tahıl Kutusu",
+                            "Korean" : "무작위 시리얼 박스"
     },
     "GAMEPLAY_RandomCerealBoxDescription" : {
                             "English" : "A spawn point for cereal boxes.",
-                            "Turkish" : "Tahıl kutuları için bir yumurtlama noktası."
+                            "Turkish" : "Tahıl kutuları için bir yumurtlama noktası.",
+                            "Korean" : "무작위 시리얼 박스의 스폰 지점입니다."
     },
     "GAMEPLAY_RandomLiquorBottle" : {
                             "English" : "Random Liquor Bottle",
-                            "Turkish" : "Rastgele Likör Şişesi"
+                            "Turkish" : "Rastgele Likör Şişesi",
+                            "Korean" : "무작위 주류 병"
     },
     "GAMEPLAY_RandomLiquorBottleDescription" : {
                             "English" : "A spawn point for liquor bottles.",
-                            "Turkish" : "İçki şişeleri için bir yumurtlama noktası."
+                            "Turkish" : "İçki şişeleri için bir yumurtlama noktası.",
+                            "Korean" : "무작위 주류 병의 스폰 지점입니다."
     }
 }
