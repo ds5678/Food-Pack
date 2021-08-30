@@ -13,10 +13,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
         
-    - name: List Files
+    - name: List Root Files
       shell: bash
-      run: |
-        ls ./Distributable -R
+      run: ls ./
+        
+    - name: List Distributable Files
+      shell: bash
+      run: ls -R ./Distributable
+
     - name: Upload Files
       uses: actions/upload-artifact@v2
       with:

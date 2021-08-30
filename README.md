@@ -38,9 +38,3 @@ If you send me your translations, I'll update and add them to the mod so that mo
 ## 4.4 Additions
 
 ![Additions](Images/additions.png)
-
-## Contributions
-
-Encinal contributed the French localization.
-
-Sovereign contributed the Polish localization.
