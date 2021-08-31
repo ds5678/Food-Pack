@@ -98,7 +98,7 @@
     "GAMEPLAY_CannedPears" : {
                             "English" : "Pear Halves",
                             "German" : "Birnenhälften",
-                            "Russian" : "Половинки груши",
+                            "Russian" : "Половинки груш",
                             "Polish" : "Połówki brzoskwini",
                             "French (France)" : "Demi-poires",
                             "Turkish" : "Yarım Armut",
@@ -108,7 +108,7 @@
     "GAMEPLAY_CannedPearsDescription" : {
                             "English" : "Delicious and sweet.",
                             "German" : "Köstlich und süß.",
-                            "Russian" : "Вкусная и сладкая.",
+                            "Russian" : "Вкусные и сладкие.",
                             "Polish" : "Pyszne i słodkie",
                             "French (France)" : "Délicieux et sucré.",
                             "Turkish" : "Lezzetli ve tatlı.",
@@ -128,7 +128,7 @@
     "GAMEPLAY_CannedPineapplesDescription" : {
                             "English" : "Delicious and sweet.",
                             "German" : "Köstlich und süß.",
-                            "Russian" : "Вкусный и сладкий.",
+                            "Russian" : "Вкусные и сладкие.",
                             "Polish" : "Pyszny i słodki",
                             "French (France)" : "Délicieux et sucré.",
                             "Turkish" : "Lezzetli ve tatlı.",
@@ -292,7 +292,7 @@
     },
     "GAMEPLAY_ForsakenSpirits" : {
                             "English" : "Forsaken Spirits",
-                            "Russian" : "Брошенный спиртной напиток",
+                            "Russian" : "Cпиртной напиток Покинутые Духи",
                             "French (France)" : "Eau de vie Forsaken Spirits",
                             "Turkish" : "Terkedilmiş Ruhlar",
                             "Korean" : "고독한 영혼 ",
