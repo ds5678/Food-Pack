@@ -3,7 +3,7 @@
                             "DisplayNameLocalizationId" : "GAMEPLAY_CannedMangos",
                             "DescriptionLocalizatonId" : "GAMEPLAY_CannedMangosDescription",
                             "InventoryActionLocalizationId" : "",
-                            "WeightKG": 0.8,
+                            "WeightKG": 0.6,
                             "DaysToDecay" : 0,
                             "MaxHP" : 100,
                             "InitialCondition" : "Random",
@@ -33,7 +33,7 @@
 
                             "DaysToDecayOutdoors" : 730,
                             "DaysToDecayIndoors" : 365,
-                            "Calories" : 650,
+                            "Calories" : 500,
                             "Servings" : 1,
                             "EatingTime" : 3,
                             "EatingAudio" : "Play_EatingSoft",

@@ -3,7 +3,7 @@
                             "DisplayNameLocalizationId" : "GAMEPLAY_CerealHoney",
                             "DescriptionLocalizatonId" : "GAMEPLAY_CerealDescription",
                             "InventoryActionLocalizationId" : "",
-                            "WeightKG": 0.4,
+                            "WeightKG": 0.2,
                             "DaysToDecay" : 0,
                             "MaxHP" : 100,
                             "InitialCondition" : "Random",
@@ -33,7 +33,7 @@
 
                             "DaysToDecayOutdoors" : 100,
                             "DaysToDecayIndoors" : 1000,
-                            "Calories" : 1400,
+                            "Calories" : 600,
                             "Servings" : 4,
                             "EatingTime" : 8,
                             "EatingAudio" : "Play_OpenCrackers",

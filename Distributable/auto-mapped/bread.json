@@ -3,7 +3,7 @@
                             "DisplayNameLocalizationId" : "GAMEPLAY_Bread",
                             "DescriptionLocalizatonId" : "GAMEPLAY_BreadDescription",
                             "InventoryActionLocalizationId" : "",
-                            "WeightKG": 0.5,
+                            "WeightKG": 0.25,
                             "DaysToDecay" : 0,
                             "MaxHP" : 100,
                             "InitialCondition" : "Random",
@@ -33,7 +33,7 @@
 
                             "DaysToDecayOutdoors" : 50,
                             "DaysToDecayIndoors" : 50,
-                            "Calories" : 1200,
+                            "Calories" : 600,
                             "EatingTime" : 8,
                             "EatingAudio" : "Play_EatingSoft",
                             "EatingPackagedAudio" : "",

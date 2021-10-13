@@ -3,7 +3,7 @@
                             "DisplayNameLocalizationId" : "GAMEPLAY_SPAM",
                             "DescriptionLocalizatonId" : "GAMEPLAY_SPAMDescription",
                             "InventoryActionLocalizationId" : "",
-                            "WeightKG": 0.4,
+                            "WeightKG": 0.2,
                             "DaysToDecay" : 0,
                             "MaxHP" : 100,
                             "InitialCondition" : "Random",
@@ -33,7 +33,7 @@
 
                             "DaysToDecayOutdoors" : 730,
                             "DaysToDecayIndoors" : 365,
-                            "Calories" : 1000,
+                            "Calories" : 500,
                             "Servings" : 1,
                             "EatingTime" : 3,
                             "EatingAudio" : "Play_EatingSoft",

@@ -3,7 +3,7 @@
                             "DisplayNameLocalizationId" : "GAMEPLAY_HoneyJar",
                             "DescriptionLocalizatonId" : "GAMEPLAY_HoneyJarDescription",
                             "InventoryActionLocalizationId" : "",
-                            "WeightKG": 0.5,
+                            "WeightKG": 0.15,
                             "DaysToDecay" : 0,
                             "MaxHP" : 100,
                             "InitialCondition" : "Perfect",
@@ -33,7 +33,7 @@
 
                             "DaysToDecayOutdoors" : 0,
                             "DaysToDecayIndoors" : 0,
-                            "Calories" : 1500,
+                            "Calories" : 450,
                             "Servings" : 10,
                             "EatingTime" : 3,
                             "EatingAudio" : "Play_OpenPeanutButter",
