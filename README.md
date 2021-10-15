@@ -28,12 +28,9 @@ If you send me your translations, I'll update and add them to the mod so that mo
 ## Installation
 
 1. If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
-2. If you haven't done so already, download the latest version of `ModComponent.dll` from its [releases page](https://github.com/ds5678/ModComponent/releases)
-3. If you haven't done so already, download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
-4. Move `ModComponent.dll` and `ModSettings.dll` into the Mods folder in your TLD install directory.
-5. Run The Long Dark once. It should generate a subfolder in your mods folder.
-6. Download `Food-Pack.modcomponent` from the [releases page](https://github.com/ds5678/Food-Pack/releases)
-7. Move `Food-Pack.modcomponent` into the `ModComponentZips` folder within your mods folder.
+2. If you haven't done so already, install the latest version of [ModComponent](https://github.com/ds5678/ModComponent/releases/latest). Be sure to have all needed dependencies installed aswell: [GearSpawner](https://github.com/ds5678/GearSpawner/releases/latest), [LocalizationUtilities](https://github.com/ds5678/LocalizationUtilities/releases/latest) and [CraftingRevisions](https://github.com/ds5678/CraftingRevisions/releases/latest). You'll also want to install [AlcoholMod](https://github.com/ds5678/AlcoholMod/releases/latest) if you want alcohol to have effect.
+3. If you haven't done so already, install the latest version of [ModSettings](https://github.com/zeobviouslyfakeacc/ModSettings/releases/latest).
+4. Finally, download latest release of [Food-Pack](https://github.com/ds5678/Food-Pack/releases/latest) and install it by dropping directly into the `.../Mods/` folder.
 
 ## 4.4 Additions
 
