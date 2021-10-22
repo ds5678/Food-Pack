@@ -23,14 +23,14 @@ Here is a list of the [Localizations](https://github.com/ds5678/ModComponent/wik
 
 Here is the [localization file](https://github.com/ds5678/Food-Pack/blob/master/Unity/Assets/Localization.json) for the Food Pack.
 
-If you send me your translations, I'll update and add them to the mod so that more people can enjoy it in their native language.
+If you pull request your translations, I'll update and add them to the mod so that more people can enjoy it in their native language.
 
 ## Installation
 
-1. If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
-2. If you haven't done so already, install the latest version of [ModComponent](https://github.com/ds5678/ModComponent/releases/latest). Be sure to have all needed dependencies installed aswell: [GearSpawner](https://github.com/ds5678/GearSpawner/releases/latest), [LocalizationUtilities](https://github.com/ds5678/LocalizationUtilities/releases/latest) and [CraftingRevisions](https://github.com/ds5678/CraftingRevisions/releases/latest). You'll also want to install [AlcoholMod](https://github.com/ds5678/AlcoholMod/releases/latest) if you want alcohol to have effect.
-3. If you haven't done so already, install the latest version of [ModSettings](https://github.com/zeobviouslyfakeacc/ModSettings/releases/latest).
-4. Finally, download latest release of [Food-Pack](https://github.com/ds5678/Food-Pack/releases/latest) and install it by dropping directly into the `.../Mods/` folder.
+* If you haven't done so already, install MelonLoader by downloading and running [MelonLoader.Installer.exe](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
+* Install the latest version of [ModComponent](https://github.com/ds5678/ModComponent) and its dependencies.
+* Download latest version of `Food-Pack.modcomponent` from the [releases page](https://github.com/ds5678/Food-Pack/releases/latest).
+* Move `Food-Pack.modcomponent` to your mods folder.
 
 ## 4.4 Additions
 
