@@ -30,7 +30,7 @@
                                 "CookingWaterRequired" : 0.25,
                                 "Type" : "Liquid"
                             },
-    "ModStackableComponent": {
+    "ModStackableBehaviour": {
                                 "SingleUnitTextId" : "",
                                 "MultipleUnitTextId" : "",
                                 "StackSprite" : "",
